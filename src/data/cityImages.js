@@ -72,6 +72,11 @@ export const cityImages = {
     emoji: '👣',
     label: '魔都·浦江夜',
   },
+  qingdao: {
+    gradient: 'linear-gradient(135deg, #006064 0%, #00838f 50%, #4dd0e1 100%)',
+    emoji: '👣',
+    label: '崂山·海军魂',
+  },
 };
 
 export function getCityImage(cityId) {
