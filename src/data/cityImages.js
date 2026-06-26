@@ -77,6 +77,21 @@ export const cityImages = {
     emoji: '👣',
     label: '崂山·海军魂',
   },
+  suzhou: {
+    gradient: 'linear-gradient(135deg, #1a237e 0%, #283593 50%, #5c6bc0 100%)',
+    emoji: '👣',
+    label: '园林·太湖美',
+  },
+  wuxi: {
+    gradient: 'linear-gradient(135deg, #00695c 0%, #00838f 50%, #4dd0e1 100%)',
+    emoji: '👣',
+    label: '太湖·热雪奇迹',
+  },
+  taian: {
+    gradient: 'linear-gradient(135deg, #bf360c 0%, #d84315 50%, #ff8f00 100%)',
+    emoji: '👣',
+    label: '泰山·五岳独尊',
+  },
 };
 
 export function getCityImage(cityId) {
