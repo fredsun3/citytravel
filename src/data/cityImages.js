@@ -62,6 +62,16 @@ export const cityImages = {
     emoji: '👣',
     label: '竹海·云上草原',
   },
+  zhoushan: {
+    gradient: 'linear-gradient(135deg, #01579b 0%, #0277bd 50%, #4fc3f7 100%)',
+    emoji: '👣',
+    label: '千岛·海天佛国',
+  },
+  shanghai: {
+    gradient: 'linear-gradient(135deg, #37474f 0%, #5c6bc0 50%, #ec407a 100%)',
+    emoji: '👣',
+    label: '魔都·浦江夜',
+  },
 };
 
 export function getCityImage(cityId) {

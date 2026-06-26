@@ -7,6 +7,7 @@ import xianHero from '../assets/xian-hero.jpg';
 import bingmayong from '../assets/bingmayong.jpg';
 import tangbubuyecheng from '../assets/tangbubuyecheng.jpg';
 import dayanta from '../assets/dayanta.jpg';
+import huaqinggong from '../assets/huaqinggong.jpg';
 import hyattXian from '../assets/hyatt-xian.jpg';
 import nanjingHero from '../assets/nanjing-hero.jpg';
 import zhongshanling from '../assets/zhongshanling.jpg';
@@ -18,6 +19,16 @@ import yunshangcaoyuan from '../assets/yunshangcaoyuan.jpg';
 import zhuboyuan from '../assets/zhuboyuan.jpg';
 import dazhuhai from '../assets/dazhuhai.jpg';
 import kaiyuanAnji from '../assets/kaiyuan-anji.jpg';
+import zhoushanHero from '../assets/zhoushan-hero.jpg';
+import daqingshan from '../assets/daqingshan.jpg';
+import putuoshan from '../assets/putuoshan.jpg';
+import shijiantan from '../assets/shijiantan.jpg';
+import crownePlazaZhoushan from '../assets/crowne-plaza-zhoushan.jpg';
+import shanghaiHero from '../assets/shanghai-hero.jpg';
+import necc from '../assets/necc.jpg';
+import huangpuNight from '../assets/huangpu-night.jpg';
+import baiyulanStage from '../assets/baiyulan-stage.jpg';
+import radissonMadrid from '../assets/radisson-madrid.jpg';
 
 export const cities = [
   {
@@ -55,17 +66,109 @@ export const cities = [
     tagline: '东方明珠，魔都风华',
     taglineEn: 'Pearl of the Orient',
     region: '华东',
+    isFootprint: true,
+    footprintNote: '我的足迹 · 亲身到访',
     bestSeason: '春秋（3-5月，9-11月）',
     avgBudget: '600-2000元/天',
-    description: '中国最大的经济中心和国际化大都市。外滩的万国建筑博览群与陆家嘴的摩天大楼遥相呼应，展现了中西文化的完美碰撞。',
-    image: 'https://cdn.pixabay.com/photo/2020/08/19/15/31/huangpu-river-5501210_1280.jpg',
+    description: '中国最大的经济中心和国际化大都市。外滩的万国建筑博览群与陆家嘴的摩天大楼遥相呼应，黄浦江夜游灯火璀璨，国家会展中心四叶草巍然矗立，白玉兰广场观景台俯瞰浦江第一弯。中西文化在这座"魔都"完美碰撞，是我亲身到访、最繁华的足迹之一。',
+    image: shanghaiHero,
     attractions: [
-      { name: '外滩', nameEn: 'The Bund', rating: 4.9, type: '城市景观', price: '免费', duration: '2-3小时', description: '上海最标志性的景观，52幢各种风格的古典主义大楼沿黄浦江排列，被誉为“万国建筑博览群”。', tips: '晚上的灯光秀最美，建议日落时分前往' },
+      {
+        name: '国家会展中心（上海）',
+        nameEn: 'National Exhibition and Convention Center',
+        rating: 4.8,
+        type: '城市景观',
+        tagline: '四叶草 · 世界上规模最大的会展综合体',
+        price: '视展览而定',
+        duration: '半天至一天',
+        description: '位于上海虹桥商务区，因建筑外形酷似四叶草而被称为"四叶草"。总建筑面积超150万平方米，是世界上规模最大的会展综合体，也是中国国际进口博览会的永久举办地。',
+        tips: '进博会期间人流量极大，建议地铁出行；可关注官方展览日历，选择感兴趣的展会前往。',
+        image: necc,
+        highlights: [
+          '世界规模最大会展综合体，总建筑面积超150万㎡',
+          '建筑造型为"四叶草"，寓意幸运与繁荣',
+          '中国国际进口博览会永久举办地',
+          '紧邻虹桥枢纽，交通极其便利',
+          '各类国际大展云集，一天逛不完',
+        ],
+        gallery: [
+          {
+            title: '四叶草里的世界会展之最',
+            image: necc,
+            content: '国家会展中心（上海）坐落于虹桥商务区核心区，总建筑面积约147万平方米，其中展厅面积40万平方米，是世界最大单体会展建筑。从空中俯瞰，建筑呈四叶草造型，中央圆厅为"花蕊"，四片"叶子"为展厅，寓意"幸运、繁荣、和谐、发展"。每年11月，中国国际进口博览会（CIIE）在此举办，全球企业云集、万商来华，是中国向世界开放市场的标志性窗口。即便非展期，其恢宏的建筑本身就是一道风景——银白色的金属屋面在阳光下熠熠生辉，如一朵巨大的四叶草绽放于大虹桥。',
+          },
+        ],
+      },
+      {
+        name: '黄浦江夜游·蓝森号',
+        nameEn: 'Huangpu River Night Cruise',
+        rating: 4.9,
+        type: '城市景观',
+        tagline: '璀璨浦江 · 魔都夜景精华',
+        price: '120-220元',
+        duration: '1-1.5小时',
+        description: '乘坐黄浦江游船"蓝森号"夜游浦江，是领略上海"魔都"夜景的最佳方式。航线串联外滩万国建筑群与陆家嘴摩天大楼，两岸灯火辉煌、流光溢彩，东方明珠、上海中心、外滩观光隧道尽收眼底。',
+        tips: '建议提前预订船票；选择日落前后班次可同时看日景与夜景；甲板拍照最出片。',
+        image: huangpuNight,
+        highlights: [
+          '魔都夜景精华，两岸灯火流光溢彩',
+          '外滩万国建筑群与陆家嘴摩天楼尽收眼底',
+          '蓝森号游船设施舒适，甲板观景绝佳',
+          '日夜交替时段班次可看双重美景',
+          '航程约1小时，轻松不累，老少皆宜',
+        ],
+        gallery: [
+          {
+            title: '一江两岸，魔都夜色',
+            image: huangpuNight,
+            content: '黄浦江夜游是上海必体验项目，蓝森号游船从十六铺码头或其昌栈码头出发，沿黄浦江航行约50-60分钟。船行江中，西岸是外滩52幢万国建筑博览群，古典立柱与穹顶在暖黄灯光下金碧辉煌；东岸是陆家嘴金融区，东方明珠、上海中心（632米）、环球金融中心、金茂大厦直插云霄，LED灯光秀变幻莫测。船过杨浦大桥与南浦大桥，桥身灯光如彩虹横跨江面。站在游船甲板上，江风拂面、灯火倒映水中，一座城市的百年沧桑与摩登繁华在两岸同时上演，这便是"魔都"最迷人的夜。',
+          },
+        ],
+      },
+      {
+        name: 'The Stage 白玉兰观景台',
+        nameEn: 'The Stage at Sinar Mas Center',
+        rating: 4.8,
+        type: '城市景观',
+        tagline: '320米云端 · 浦江第一弯全景',
+        price: '180元',
+        duration: '1-2小时',
+        description: '位于北外滩白玉兰广场（Sinar Mas Center）顶层，高320米，是浦西最高观景台。360度全景观赏外滩、陆家嘴与黄浦江"第一弯"壮丽景色，被誉为"看外滩的最佳位置"。',
+        tips: '日落前后前往可同时看日景与夜景；观景台内设有吧台与沙发，可小酌赏景。',
+        image: baiyulanStage,
+        highlights: [
+          '浦西最高观景台，海拔320米',
+          '360度俯瞰外滩、陆家嘴与黄浦江第一弯',
+          '被誉为"看外滩的最佳位置"',
+          '精致云端空间，可小酌赏景',
+          '日落时分双重美景，摄影出片',
+        ],
+        gallery: [
+          {
+            title: '320米云端看魔都',
+            image: baiyulanStage,
+            content: 'The Stage 白玉兰观景台位于虹口北外滩白玉兰广场顶层，建筑高319.5米，是浦西第一高楼。观景台位于320米高空，360度落地玻璃幕墙将上海天际线尽收眼底——脚下是黄浦江在此画出一道优美弧线的"浦江第一弯"，正前方对岸是陆家嘴三大高楼与东方明珠，左侧是外滩万国建筑博览群绵延1.5公里，右侧是杨浦大桥与北外滩滨水空间。不同于东方明珠"身在陆家嘴看外滩"，这里"身在浦西看陆家嘴"，视角独一无二。日落时分，夕阳为陆家嘴镀上金边，华灯初上后万家灯火与江面倒影交相辉映，被无数旅行者评为"上海看夜景天花板"。',
+          },
+        ],
+      },
+      { name: '外滩', nameEn: 'The Bund', rating: 4.9, type: '城市景观', price: '免费', duration: '2-3小时', description: '上海最标志性的景观，52幢各种风格的古典主义大楼沿黄浦江排列，被誉为"万国建筑博览群"。', tips: '晚上的灯光秀最美，建议日落时分前往' },
       { name: '东方明珠广播电视塔', nameEn: 'Oriental Pearl Tower', rating: 4.7, type: '城市景观', price: '199元', duration: '2-3小时', description: '上海的标志性建筑，高468米，可在观光层俯瞰浦江两岸全景。', tips: '建议购买含透明观光层的套票' },
       { name: '豫园', nameEn: 'Yu Garden', rating: 4.7, type: '历史古迹', price: '40元', duration: '2-3小时', description: '始建于明代的古典园林，江南园林艺术的经典之作，周边城隍庙小吃丰富。', tips: '周末人多，城隍庙的小笼包和南翔香头必吃' },
       { name: '田子坊', nameEn: 'Tianzifang', rating: 4.5, type: '文化艺术', price: '免费', duration: '2-3小时', description: '由石库门弄堂改造而成的艺术区，汇聚了众多画廊、工艺品店、咖啡馆和餐厅。', tips: '下午去最好，很多小店上午不开门' },
     ],
     hotels: [
+      {
+        name: '西郊马德里庄园丽笙大酒店',
+        nameEn: 'Radisson Collection Hotel Xijiao Shanghai',
+        stars: 5,
+        isFeatured: true,
+        priceRange: '700-1800元/晚',
+        location: '虹桥商务区',
+        features: ['丽笙品牌', '西班牙庄园', '花园景观', '近国家会展中心', '亲子度假'],
+        description: '丽笙集团旗下高端品牌酒店，以西班牙马德里庄园为主题设计，白墙红瓦、拱门庭院，洋溢浓郁的地中海风情。酒店坐落于虹桥商务区，毗邻国家会展中心与虹桥枢纽，客房宽敞典雅，配备花园景观与亲子设施。中西合璧的独特格调与便捷的交通，是商务出差与亲子度假的优选。',
+        tips: '距国家会展中心仅10分钟车程；推荐预订花园景观房，晨起满眼绿意。',
+        image: radissonMadrid,
+      },
       { name: '上海和平饭店', nameEn: 'Fairmont Peace Hotel', stars: 5, priceRange: '1200-3000元/晚', location: '外滩', features: ['江景房', '历史建筑', '顶楼酒吧'], description: '位于外滩的经典老牌酒店，始建于1929年，是上海的历史地标。' },
       { name: '上海浦东丽思卡尔顿酒店', nameEn: 'Ritz-Carlton Pudong', stars: 5, priceRange: '1800-5000元/晚', location: '陆家嘴', features: ['无敌江景', '空中大厅', '顶级SPA'], description: '位于上海国际金融中心，52层的空中大厅可俯瞰外滩全景。' },
       { name: '上海老西门青年旅舍', nameEn: 'Shanghai Laoximen Hostel', stars: 3, priceRange: '100-250元/晚', location: '黄浦区', features: ['石库门风格', '位置优越', '社交氛围'], description: '由老上海石库门改造，体验地道上海生活氛围。' },
@@ -87,7 +190,7 @@ export const cities = [
     footprintNote: '我的足迹 · 亲身到访',
     bestSeason: '春秋（3-5月，9-11月）',
     avgBudget: '400-1200元/天',
-    description: '世界四大古都之一，丝绸之路的东方起点。秦始皇兵马俑的恢弘、大唐不夜城的璀璨、大雁塔的千年禅意与古城墙的厚重，让人在十三朝古都感受中华文明的震撼。这是我亲身到访、流连忘返的足迹之一。',
+    description: '世界四大古都之一，丝绸之路的东方起点。秦始皇兵马俑的恢弘、大唐不夜城的璀璨、大雁塔的千年禅意、华清宫的骊山温泉与古城墙的厚重，让人在十三朝古都感受中华文明的震撼。这是我亲身到访、流连忘返的足迹之一。',
     image: xianHero,
     attractions: [
       {
@@ -164,6 +267,33 @@ export const cities = [
             title: '玄奘藏经的千年禅意',
             image: dayanta,
             content: '大雁塔始建于唐永徽三年（652年），是玄奘法师为保存从印度经丝绸之路带回的经卷佛像而建。塔身青砖砌筑、仿木结构，七层方形锥体由下而上逐层递减，端庄古朴。塔内石门门楣上的唐代线刻佛像至今清晰可辨。登塔远眺，大雁塔南北广场与大唐不夜城尽收眼底。每到夜晚，北广场的矩阵音乐喷泉随乐起舞，水柱冲天，古塔与现代光影交相辉映，是西安最具代表性的文化地标。',
+          },
+        ],
+      },
+      {
+        name: '华清宫景区',
+        nameEn: 'Huaqing Palace',
+        rating: 4.7,
+        type: '历史古迹',
+        tagline: '骊山温泉 · 唐代皇家行宫',
+        price: '120元（含骊山）',
+        duration: '3-4小时',
+        description: '原华清池景区已与骊山景区合并为"华清宫景区"，是中国首个皇家温泉园林遗址，拥有6000年温泉利用史和3000年皇家园林建筑史。唐玄宗与杨贵妃的爱情故事、周幽王烽火戏诸侯、西安事变均发生于此，融合周秦汉唐明清六朝遗韵，堪称"露天历史博物馆"。',
+        tips: '地铁9号线华清池站C口出步行3分钟即达；建议上午看御汤遗址与五间厅，下午乘索道上骊山看烽火台，晚上必看《长恨歌》实景演出。',
+        image: huaqinggong,
+        highlights: [
+          '骊山与华清池合并为统一5A景区，一票通游山与宫',
+          '6000年温泉利用史，温泉水温常年43℃',
+          '唐御汤遗址博物馆：杨贵妃"海棠汤"、唐玄宗"莲花汤"',
+          '西安事变旧址五间厅，墙面留存真实弹孔',
+          '骊山烽火台——周幽王"烽火戏诸侯"遗址',
+          '夜晚《长恨歌》实景舞剧，以骊山为背景演绎唐明皇与杨贵妃',
+        ],
+        gallery: [
+          {
+            title: '一宫藏千年，骊山映温泉',
+            image: huaqinggong,
+            content: '华清宫位于西安市临潼区骊山北麓，距市区约30公里。2007年起，华清池与骊山景区合并为统一的"华清宫景区"，一张门票即可通游山下宫殿与山上名胜。山下核心是唐御汤遗址博物馆，杨贵妃专用的"海棠汤"由24块墨玉铺砌，形似盛开海棠花，中心进水口上方的莲花喷头被誉为"中国最早的花洒"；唐玄宗的"莲花汤"呈八边形，面积达60平方米，彰显天子气派。五间厅是1936年西安事变发生地，蒋介石下榻之处，墙面上的弹孔至今清晰可辨。九龙湖与芙蓉湖碧波荡漾，湖光山色间适合古风摄影。乘索道上骊山，可达老母殿（供奉女娲娘娘）与烽火台——周幽王"烽火戏诸侯"的典故便发生于此。入夜，大型实景历史舞剧《长恨歌》以骊山为天然幕布，再现李隆基与杨玉环"在天愿作比翼鸟，在地愿为连理枝"的千古绝唱，是华清宫游览不可错过的压轴大戏。',
           },
         ],
       },
@@ -526,6 +656,121 @@ export const cities = [
       { title: '交通', content: '杭州自驾约1.5小时、上海约3小时可达；云上草原、大竹海建议自驾或包车前往。' },
       { title: '美食', content: '必吃：安吉笋宴、竹筒饭、白茶、本鸡煲、山核桃。春笋最鲜，白茶最香。' },
       { title: '最佳时间', content: '4-5月春笋破土、6-8月避暑纳凉、9-11月秋高气爽；夏天竹海清凉，是避暑胜地。' },
+    ],
+  },
+  {
+    id: 'zhoushan',
+    name: '舟山',
+    nameEn: 'Zhoushan',
+    tagline: '千岛之城，海天佛国',
+    taglineEn: 'City of Thousand Islands',
+    region: '华东',
+    isFootprint: true,
+    footprintNote: '我的足迹 · 亲身到访',
+    bestSeason: '5-10月',
+    avgBudget: '500-1500元/天',
+    description: '舟山，中国第一大群岛，古称"海中洲"，由1390个岛屿组成，素有"千岛之城"美誉。这里有海天佛国普陀山的梵音、朱家尖十里金沙的浪花、大青山悬崖峭壁的壮美，更有东海海鲜的鲜美。碧海蓝天、岛礁灯塔、渔港烟火，是我亲身到访、最治愈的海岛足迹之一。',
+    image: zhoushanHero,
+    attractions: [
+      {
+        name: '大青山风景区',
+        nameEn: 'Daqingshan Scenic Area',
+        rating: 4.8,
+        type: '自然风光',
+        tagline: '海崖绝壁 · 舟山最美海岸线',
+        price: '100元',
+        duration: '半天至一天',
+        description: '位于朱家尖岛最南端，三面环海，是舟山唯一的大型海滨国家公园。青山碧海、悬崖峭壁，里沙生态园、千沙、青沙、箬漕等海湾串珠成链，被称为"舟山的圣托里尼"。沿海盘山公路蜿蜒于悬崖之上，一侧青山一侧碧海，是华东最美海岸自驾路线。',
+        tips: '建议自驾游览，沿海公路风景绝美；里沙海滨浴场可下水；傍晚看日落最佳。',
+        image: daqingshan,
+        highlights: [
+          '舟山唯一海滨国家公园，三面环海',
+          '沿海悬崖盘山公路，华东最美海岸线',
+          '里沙、千沙、青沙等原生态海湾',
+          '登顶大青山俯瞰碧海群岛全景',
+          '日落时分海崖金光，摄影圣地',
+        ],
+        gallery: [
+          {
+            title: '海崖绝壁上的最美海岸线',
+            image: daqingshan,
+            content: '大青山位于朱家尖岛最南端，海拔378.6米，是朱家尖的最高峰。景区三面环海，拥有里沙、千沙、青沙、箬漕等多个原生态海湾，沙质金黄细腻、海水湛蓝清澈。沿海盘山公路依悬崖而建，蜿蜒曲折，一侧是苍翠青山，一侧是万顷碧波，行驶其间如穿行画中。登上大青山顶，星罗棋布的岛礁、远处的东海渔船与蓝天碧海尽收眼底。傍晚时分，夕阳将海面染成金红色，悬崖上的盘山公路被镀上一层暖光，被无数旅行者誉为"舟山最美日落"。',
+          },
+        ],
+      },
+      {
+        name: '普陀山',
+        nameEn: 'Putuo Mountain',
+        rating: 4.9,
+        type: '历史古迹',
+        tagline: '海天佛国 · 观音道场',
+        price: '160元（含进山门票）',
+        duration: '一天',
+        description: '中国佛教四大名山之一，观世音菩萨教化众生的道场。岛上寺院林立、梵音缭绕，以普济寺、法雨寺、慧济寺三大寺为核心，南海观音铜像巍峨矗立。海天一色、佛号声声，是朝拜祈福与海岛观光的圣地。',
+        tips: '从沈家门半升洞码头或朱家尖蜈蚣峙码头乘船前往；建议住一晚感受晨钟暮鼓。',
+        image: putuoshan,
+        highlights: [
+          '中国佛教四大名山，观音菩萨道场',
+          '南海观音铜像高33米，巍峨壮观',
+          '普济寺、法雨寺、慧济寺三大名刹',
+          '海天一色，晨钟暮鼓净化心灵',
+          '世界文化遗产候选，国家级风景名胜区',
+        ],
+        gallery: [
+          {
+            title: '海天佛国的千年梵音',
+            image: putuoshan,
+            content: '普陀山是舟山群岛1390个岛屿中的一个小岛，面积仅12.5平方公里，却因观音信仰而名扬天下。相传唐大中年间，日本僧人慧锷从五台山请观音像东渡，途经普陀山遇风浪受阻，遂留下建"不肯去观音院"，开普陀山观音道场之始。岛上现存普济、法雨、慧济三大寺及数十座庵院，香火鼎盛。高33米的南海观音铜像面朝大海、慈眉善目，是普陀山的标志。漫步岛上，海风送来檀香，梵音与涛声交织，无论信仰与否，这片海天之间的清净之地都让人心生安宁。',
+          },
+        ],
+      },
+      {
+        name: '朱家尖十里金沙',
+        nameEn: 'Zhujiajian Golden Beach',
+        rating: 4.7,
+        type: '自然风光',
+        tagline: '十里金沙 · 沙雕故乡',
+        price: '免费（部分浴场收费）',
+        duration: '半天',
+        description: '朱家尖岛东南海岸线绵延十余里的金色沙滩，由南沙、东沙、千沙、里沙、青沙五大沙滩组成，沙质细腻、海水清澈。每年国际沙雕节在此举办，是世界上规模最大的沙雕大赛之一。',
+        tips: '南沙有国际沙雕艺术广场；夏季可下水游泳；建议与大青山同游。',
+        image: shijiantan,
+        highlights: [
+          '五大沙滩连绵十里，沙质金黄细腻',
+          '国际沙雕节举办地，世界级沙雕艺术',
+          '夏季海水浴场，水上项目丰富',
+          '免费开放，亲子戏水首选',
+        ],
+        gallery: [
+          {
+            title: '十里金沙与沙雕艺术',
+            image: shijiantan,
+            content: '朱家尖的沙滩以"十里金沙"闻名，南沙、东沙、千沙、里沙、青沙五大沙滩首尾相连，绵延5公里余，沙粒细腻如粉、色泽金黄。其中南沙是国际沙雕节的举办地，每年金秋时节，来自世界各地的沙雕艺术家聚此创作，一座座宏伟的沙雕作品矗立海滩，有人物、城堡、神话场景，令人叹为观止。夏日里，东沙、南沙海滨浴场开放，游客可踏浪嬉水、体验摩托艇与海上拖伞。傍晚退潮，踩着柔软金沙漫步海岸线，看夕阳坠入东海，是朱家尖最惬意的时光。',
+          },
+        ],
+      },
+    ],
+    hotels: [
+      {
+        name: '舟山海景皇冠假日酒店',
+        nameEn: 'Crowne Plaza Zhoushan Seaview',
+        stars: 5,
+        isFeatured: true,
+        priceRange: '800-2000元/晚',
+        location: '朱家尖·东沙海滨',
+        features: ['洲际集团', '一线海景', '无边泳池', '近大青山', '亲子度假'],
+        description: '洲际集团旗下的海景度假酒店，坐落于朱家尖东沙海滨，推窗即见东海日出。酒店拥有海景客房、无边泳池、儿童乐园与海景餐厅，步行可达沙滩，驱车10分钟即达大青山风景区。是舟山地理位置最佳、海景视野最开阔的国际品牌度假酒店。',
+        tips: '推荐预订海景房，清晨在阳台看东海日出；酒店距大青山、沙雕广场均很近。',
+        image: crownePlazaZhoushan,
+      },
+      { name: '舟山威斯汀度假酒店', nameEn: 'The Westin Zhoushan', stars: 5, priceRange: '1000-2500元/晚', location: '朱家尖', features: ['国际奢华', '天梦之床', '海景房'], description: '威斯汀品牌度假酒店，拥有私人沙滩与海景泳池，适合高端度假。' },
+      { name: '普陀山大酒店', nameEn: 'Putuoshan Hotel', stars: 4, priceRange: '500-1200元/晚', location: '普陀山岛内', features: ['岛内住宿', '近普济寺', '朝拜便利'], description: '位于普陀山岛内，步行可达普济寺，是朝拜祈福的理想住宿。' },
+      { name: '朱家尖海边民宿', nameEn: 'Seaside Homestay', stars: 3, priceRange: '200-500元/晚', location: '朱家尖', features: ['海景民宿', '地道海鲜', '性价比高'], description: '朱家尖海边的特色民宿，推门见海，可品尝地道舟山海鲜。' },
+    ],
+    tips: [
+      { title: '交通', content: '杭州自驾约4小时经跨海大桥达舟山；普陀山需从朱家尖蜈蚣峙码头乘船前往。' },
+      { title: '美食', content: '必吃：舟山海鲜面、红膏炝蟹、带鱼、梭子蟹、小黄鱼。沈家门海鲜大排档最地道。' },
+      { title: '最佳时间', content: '5-10月最佳，可下海游泳；7-8月最旺；避开台风季（8-9月）出行。' },
     ],
   },
   {
