@@ -1,0 +1,215 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(135deg, #e74c3c22, #f39c1222);
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: var(--gray);
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 40px;
+  padding: 12px 24px;
+  box-shadow: var(--shadow);
+  gap: 10px;
+}
+
+.search-icon { font-size: 1.2rem; }
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.stat-item { display: flex; flex-direction: column; align-items: center; }
+.stat-number { font-size: 2rem; font-weight: 800; color: var(--primary); }
+.stat-label { font-size: 0.85rem; color: var(--gray); margin-top: 2px; }
+
+/* Filter */
+.filter-section { margin-bottom: 24px; }
+.region-tabs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.region-tab {
+  padding: 8px 22px;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.region-tab:hover { border-color: var(--primary); color: var(--primary); }
+.region-tab.active { color: white; border-color: transparent; }
+
+/* City Grid */
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+}
+
+.city-card {
+  background: white;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.city-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+.city-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.3));
+}
+
+.city-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.city-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: white;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.city-info { padding: 20px; }
+
+.city-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.city-name { font-size: 1.4rem; font-weight: 700; }
+.city-name-en { font-size: 0.85rem; color: var(--gray); }
+
+.city-tagline {
+  font-size: 0.9rem;
+  color: var(--gray);
+  margin-bottom: 12px;
+}
+
+.city-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.82rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.city-highlights {
+  display: flex;
+  gap: 16px;
+  font-size: 0.82rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .hero-title { font-size: 2rem; }
+  .hero-stats { gap: 30px; }
+  .stat-number { font-size: 1.5rem; }
+  .city-grid { grid-template-columns: 1fr; }
+}
+
+/* 我的足迹 Module */
+.footprint-module {
+  margin-bottom: 36px;
+  padding: 24px;
+  background: linear-gradient(135deg, #fff8e1 0%, #ffe0b2 100%);
+  border: 2px dashed #f39c12;
+  border-radius: var(--radius);
+}
+
+.footprint-header {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footprint-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+}
+
+.footprint-subtitle {
+  font-size: 0.92rem;
+  color: #6d4c41;
+}
+
+.footprint-card {
+  border: 2px solid #f39c12;
+  position: relative;
+}
+
+.footprint-card::before {
+  content: '👣 亲身到访';
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  background: linear-gradient(135deg, #e74c3c, #f39c12);
+  color: white;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: var(--shadow);
+}
+
+.footprint-badge {
+  background: linear-gradient(135deg, #e74c3c, #f39c12) !important;
+}
+
+.grid-empty-hint {
+  text-align: center;
+  color: var(--gray);
+  padding: 30px 20px;
+  font-size: 0.95rem;
+}
