@@ -47,6 +47,21 @@ export const cityImages = {
     emoji: '👣',
     label: '十七房·海防',
   },
+  xian: {
+    gradient: 'linear-gradient(135deg, #4e342e 0%, #bf360c 50%, #ff8f00 100%)',
+    emoji: '👣',
+    label: '兵马俑·大唐夜城',
+  },
+  nanjing: {
+    gradient: 'linear-gradient(135deg, #1565c0 0%, #6a1b9a 50%, #c2185b 100%)',
+    emoji: '👣',
+    label: '中山陵·秦淮夜',
+  },
+  anji: {
+    gradient: 'linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #66bb6a 100%)',
+    emoji: '👣',
+    label: '竹海·云上草原',
+  },
 };
 
 export function getCityImage(cityId) {

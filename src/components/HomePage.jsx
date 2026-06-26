@@ -14,7 +14,11 @@ function HomePage({ onCityClick }) {
   const regions = getRegions();
 
   const footprintCities = useMemo(() => getFootprintCities(), []);
-  const showFootprintModule = !searchQuery && ['\u5168\u90e8', '\u672c\u5730', '\u534e\u5357'].includes(activeRegion);
+  const showFootprintModule = !searchQuery && (
+    activeRegion === '\u5168\u90e8' ||
+    activeRegion === '\u672c\u5730' ||
+    footprintCities.some(c => c.region === activeRegion)
+  );
 
   const filteredCities = useMemo(() => {
     if (searchQuery) return searchCities(searchQuery);

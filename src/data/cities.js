@@ -3,6 +3,21 @@ import shiqifangAncient from '../assets/shiqifang-ancient.jpg';
 import shiqifangComfort from '../assets/shiqifang-comfort.jpg';
 import zhaobaoshan from '../assets/zhaobaoshan.jpg';
 import cichengImg from '../assets/cicheng.jpg';
+import xianHero from '../assets/xian-hero.jpg';
+import bingmayong from '../assets/bingmayong.jpg';
+import tangbubuyecheng from '../assets/tangbubuyecheng.jpg';
+import dayanta from '../assets/dayanta.jpg';
+import hyattXian from '../assets/hyatt-xian.jpg';
+import nanjingHero from '../assets/nanjing-hero.jpg';
+import zhongshanling from '../assets/zhongshanling.jpg';
+import fuzimiao from '../assets/fuzimiao.jpg';
+import mingxiaoling from '../assets/mingxiaoling.jpg';
+import jinlingWenquan from '../assets/jinling-wenquan.jpg';
+import anjiHero from '../assets/anji-hero.jpg';
+import yunshangcaoyuan from '../assets/yunshangcaoyuan.jpg';
+import zhuboyuan from '../assets/zhuboyuan.jpg';
+import dazhuhai from '../assets/dazhuhai.jpg';
+import kaiyuanAnji from '../assets/kaiyuan-anji.jpg';
 
 export const cities = [
   {
@@ -68,25 +83,113 @@ export const cities = [
     tagline: '十三朝古都，丝路起点',
     taglineEn: 'Eternal Ancient Capital',
     region: '西北',
+    isFootprint: true,
+    footprintNote: '我的足迹 · 亲身到访',
     bestSeason: '春秋（3-5月，9-11月）',
     avgBudget: '400-1200元/天',
-    description: '世界四大古都之一，丝绸之路的东方起点。秦始皇兵马俑、大雁塔、古城墙等让人感受千年帝都的震撼。',
-    image: 'https://cdn.pixabay.com/photo/2015/11/06/14/00/terracotta-1028105_1280.jpg',
+    description: '世界四大古都之一，丝绸之路的东方起点。秦始皇兵马俑的恢弘、大唐不夜城的璀璨、大雁塔的千年禅意与古城墙的厚重，让人在十三朝古都感受中华文明的震撼。这是我亲身到访、流连忘返的足迹之一。',
+    image: xianHero,
     attractions: [
-      { name: '秦始皇兵马俑博物馆', nameEn: 'Terracotta Warriors', rating: 4.9, type: '历史古迹', price: '120元', duration: '3-4小时', description: '世界第八大奇迹，秦始皇陵墓的陶瓷军队，8000多个真人大小的陶俑，形态各异，世界罕见。', tips: '距离市区约1小时车程，建议包车或参团' },
+      {
+        name: '秦始皇兵马俑博物馆',
+        nameEn: 'Terracotta Warriors',
+        rating: 4.9,
+        type: '历史古迹',
+        tagline: '世界第八大奇迹 · 地下军团',
+        price: '120元',
+        duration: '3-4小时',
+        description: '世界第八大奇迹，秦始皇陵墓的陶瓷军队。8000多个真人大小的陶俑，按军阵排列，将军、武士、弓弩手形态各异、千人千面，是世界上无与伦比的地下军事博物馆。',
+        tips: '距离市区约1小时车程，建议包车或参团；按一号坑→二号坑→三号坑顺序参观，最后看铜车马展厅。',
+        image: bingmayong,
+        highlights: [
+          '世界第八大奇迹，联合国教科文组织世界文化遗产',
+          '8000余件真人大小的陶俑，千人千面、无一雷同',
+          '一号坑最为震撼，6000平方米的军阵气势恢宏',
+          '铜车马展厅展出秦代青铜工艺巅峰之作',
+          '建议请讲解员或租语音导览，了解背后的历史更精彩',
+        ],
+        gallery: [
+          {
+            title: '穿越两千年的地下军团',
+            image: bingmayong,
+            content: '秦始皇兵马俑发现于1974年，是秦始皇陵的陪葬坑。目前已发掘三个俑坑，呈品字形排列。一号坑最大，长230米、宽62米，坑内排列着约6000件步兵陶俑，组成方阵，气势磅礴。陶俑原本彩绘，出土后遇空气褪色，但发髻、铠甲、鞋底的细节依旧清晰可辨。将军俑昂首挺胸、武士俑蓄势待发，凝视这支沉睡两千年的地下军团，秦帝国的金戈铁马仿佛就在眼前。',
+          },
+        ],
+      },
+      {
+        name: '大唐不夜城',
+        nameEn: 'Grand Tang Mall',
+        rating: 4.8,
+        type: '文化休闲',
+        tagline: '盛唐夜游 · 灯火长安',
+        price: '免费',
+        duration: '2-3小时',
+        description: '以盛唐文化为主题的大型步行街，位于大雁塔脚下，南北长约1500米。夜晚华灯初上，唐风建筑群金碧辉煌，街头表演、灯光秀、不倒翁小姐姐等互动演出让人仿佛穿越回大唐长安，是西安夜经济的名片。',
+        tips: '一定要晚上去！灯光和表演只在夜间呈现；建议从大雁塔南广场向南走，沿途看表演。',
+        image: tangbubuyecheng,
+        highlights: [
+          '西安夜游首选，免费开放的盛唐主题步行街',
+          '不倒翁小姐姐、石头哥等网红街头表演',
+          '唐风建筑群灯光璀璨，拍照超出片',
+          '毗邻大雁塔，可与音乐喷泉串联夜游',
+          '沿途美食、文创、汉服体验一应俱全',
+        ],
+        gallery: [
+          {
+            title: '灯火长安夜',
+            image: tangbubuyecheng,
+            content: '大唐不夜城以大雁塔为北端起点，沿雁塔南路向南延伸1500米。两侧仿唐建筑飞檐斗拱、层楼叠榭，入夜后被金色灯火点亮，宛若重现"九天阊阖开宫殿，万国衣冠拜冕旒"的盛唐气象。街中分布着"盛唐密盒""不倒翁""石头人"等互动演出，不倒翁小姐姐身披唐装翩翩起舞，与游客牵手互动，曾红遍全网。漫步其间，灯火阑珊、人潮如织，是感受"长安十二时辰"夜生活最直接的窗口。',
+          },
+        ],
+      },
+      {
+        name: '大雁塔',
+        nameEn: 'Giant Wild Goose Pagoda',
+        rating: 4.7,
+        type: '历史古迹',
+        tagline: '玄奘藏经 · 千年唐塔',
+        price: '40元（登塔另收30元）',
+        duration: '2小时',
+        description: '唐代建筑，玄奘法师从印度取经归来后主持修建，用于收藏经卷。塔身七层、通高64米，是中国现存最早、规模最大的唐代四方楼阁式砖塔，世界文化遗产。',
+        tips: '晚上北广场有亚洲最大的矩阵音乐喷泉表演，建议傍晚前往一次看全白天与夜景。',
+        image: dayanta,
+        highlights: [
+          '玄奘法师亲自主持修建的千年唐塔',
+          '世界文化遗产，唐代四方楼阁式砖塔典范',
+          '北广场音乐喷泉为亚洲最大矩阵喷泉',
+          '与大唐不夜城相连，白天看塔夜晚逛街',
+        ],
+        gallery: [
+          {
+            title: '玄奘藏经的千年禅意',
+            image: dayanta,
+            content: '大雁塔始建于唐永徽三年（652年），是玄奘法师为保存从印度经丝绸之路带回的经卷佛像而建。塔身青砖砌筑、仿木结构，七层方形锥体由下而上逐层递减，端庄古朴。塔内石门门楣上的唐代线刻佛像至今清晰可辨。登塔远眺，大雁塔南北广场与大唐不夜城尽收眼底。每到夜晚，北广场的矩阵音乐喷泉随乐起舞，水柱冲天，古塔与现代光影交相辉映，是西安最具代表性的文化地标。',
+          },
+        ],
+      },
       { name: '西安古城墙', nameEn: 'Xian City Wall', rating: 4.8, type: '历史古迹', price: '54元', duration: '2-3小时', description: '中国现存最完整的古代城墙，周长13.7公里，可以在城墙上骑自行车环游。', tips: '傍晚时分最美，可租自行车骑行一圈' },
-      { name: '大雁塔', nameEn: 'Giant Wild Goose Pagoda', rating: 4.7, type: '历史古迹', price: '40元', duration: '2小时', description: '唐代建筑，玄奘法师从印度取经归来后主持修建，用于收藏经卷。', tips: '晚上北广场有音乐喷泉表演' },
       { name: '回民街', nameEn: 'Muslim Quarter', rating: 4.6, type: '美食购物', price: '免费', duration: '2-3小时', description: '西安最著名的美食街，汇聚了各种回民特色小吃，是吃货的天堂。', tips: '必吃：肉夹馍、羊肉泡馍、凉皮、甘梅汁' },
     ],
     hotels: [
+      {
+        name: '西安高新凯悦尚萃酒店',
+        nameEn: 'Hyatt Place Xi’an Gaoxin',
+        stars: 4,
+        isFeatured: true,
+        priceRange: '600-1000元/晚',
+        location: '高新区科技路',
+        features: ['凯悦品牌', '高新商圈', '免费早餐', '24小时健身房', '宽敞客房'],
+        description: '凯悦集团旗下的尚萃品牌酒店，坐落于西安高新区核心地段。客房宽敞明亮，配备舒适的工作区与沙发休憩区，适合商务与休闲旅客。酒店提供免费早餐、24小时健身房与全天候咖啡吧，紧邻科技路商圈与地铁，前往大唐不夜城、大雁塔等景点交通便利。',
+        image: hyattXian,
+      },
       { name: '西安唐西市酒店', nameEn: 'Tang West Market Hotel', stars: 5, priceRange: '600-1500元/晚', location: '莲湖区', features: ['唐文化主题', '中庭花园', '位置优越'], description: '以盛唐文化为主题的豪华酒店，融合古典与现代设计。' },
       { name: '西安帝景酒店', nameEn: 'Grand Dynasty Hotel', stars: 4, priceRange: '400-800元/晚', location: '碑林区', features: ['近古城墙', '早餐丰富', '价格合理'], description: '位于古城区核心位置，步行即可游览主要景点。' },
       { name: '西安湘子洋国际青年旅舍', nameEn: 'Xian Xiangziyang Hostel', stars: 3, priceRange: '60-150元/晚', location: '碑林区', features: ['经济实惠', '地道体验', '交通便利'], description: '位于古城区的特色旅舍，老建筑改造，氛围独特。' },
     ],
     tips: [
-      { title: '交通', content: '地铁覆盖主要景点，兵马俑可乘游公司大巴或打车前往。' },
+      { title: '交通', content: '地铁覆盖主要景点，兵马俑可乘游公司大巴或打车前往。大唐不夜城可乘地铁3/4号线到大雁塔站。' },
       { title: '美食', content: '必吃：肉夹馍、羊肉泡馍、凉皮、锅盔、biangbiang面。回民街和永兴坊是美食聚集地。' },
-      { title: '最佳时间', content: '4-5月和9-10月最宜人，夏天炎热，冬天较冷。' },
+      { title: '最佳时间', content: '4-5月和9-10月最宜人，夏天炎热，冬天较冷。大唐不夜城四季皆可夜游。' },
     ],
   },
   {
@@ -193,6 +296,236 @@ export const cities = [
       { title: '交通', content: '古城内步行，去玉龙雪山可乘景区大巴或包车。' },
       { title: '美食', content: '必吃：丽江粙米饭、腊排骨火锅、纳西烧肉、鸡豆凉粉。' },
       { title: '最佳时间', content: '四季皆宜，春季花开，秋季天高气爽，冬季可看雪山。注意紫外线防晒。' },
+    ],
+  },
+  {
+    id: 'nanjing',
+    name: '南京',
+    nameEn: 'Nanjing',
+    tagline: '六朝古都，十朝都会',
+    taglineEn: 'Six Dynasties Ancient Capital',
+    region: '华东',
+    isFootprint: true,
+    footprintNote: '我的足迹 · 亲身到访',
+    bestSeason: '春秋（3-5月，9-11月）',
+    avgBudget: '400-1200元/天',
+    description: '南京，简称"宁"，古称金陵、建康，是中国四大古都之一，有"六朝古都""十朝都会"之称。从孙权建都到明初朱元璋定鼎，从民国首都到现代名城，钟山龙蟠、石城虎踞，秦淮灯影里是千年文脉，中山陵的青松间是家国情怀。这是我亲身到访、印象深刻的足迹之一。',
+    image: nanjingHero,
+    attractions: [
+      {
+        name: '中山陵',
+        nameEn: 'Sun Yat-sen Mausoleum',
+        rating: 4.9,
+        type: '历史古迹',
+        tagline: '巍巍钟山 · 民国先行者长眠之地',
+        price: '免费（需预约）',
+        duration: '2-3小时',
+        description: '中国近代民主革命先行者孙中山先生的陵寝，坐落于紫金山南麓，1929年建成。陵寝依山而建，从牌坊到祭堂共392级台阶，寓意当时3亿9千200万同胞。整体建筑融汇中国古代与西方建筑之长，庄严宏伟，是南京的城市象征。',
+        tips: '免费但需提前在"钟山风景区"公众号预约；建议上午早去避开人流；登顶后可远眺南京城。',
+        image: zhongshanling,
+        highlights: [
+          '孙中山先生陵寝，国家级文物保护单位',
+          '392级台阶拾级而上，寓意3亿9千200万同胞',
+          '祭堂内孙中山大理石坐像与卧像庄严肃穆',
+          '免费开放，钟山风景区核心地标',
+          '秋季陵园大道两侧梧桐金黄，被誉为"最美项链"',
+        ],
+        gallery: [
+          {
+            title: '巍巍钟山，民国丰碑',
+            image: zhongshanling,
+            content: '中山陵由著名建筑师吕彦直设计，1926年春动工，1929年夏建成。整个陵寝平面呈"警钟"形，象征"唤起民众"。从博爱坊、墓道、陵门、碑亭到祭堂，依南北中轴线排列于紫金山南坡，由南往北逐级升高。392级台阶全部用花岗石砌成，从下仰望只见台阶不见平台，登至祭堂回望则只见平台不见台阶，设计巧夺天工。祭堂内供奉孙中山先生大理石坐像，四壁刻有《建国大纲》全文。站在祭堂前平台远眺，钟山林海苍翠、南京城尽收眼底，"天下为公"的胸襟与山河同在。',
+          },
+        ],
+      },
+      {
+        name: '明孝陵',
+        nameEn: 'Ming Xiaoling Mausoleum',
+        rating: 4.8,
+        type: '历史古迹',
+        tagline: '神道石像 · 明代开国皇陵',
+        price: '70元',
+        duration: '2-3小时',
+        description: '明太祖朱元璋与马皇后的合葬陵墓，明代规模最大的帝陵，世界文化遗产。神道两侧排列12对石像生（石兽、石人），秋日银杏金黄、古朴肃穆，是南京最具韵味的访古之地。',
+        tips: '秋季神道银杏金黄时最美；建议与中山陵同游（同处紫金山）。',
+        image: mingxiaoling,
+        highlights: [
+          '世界文化遗产，明代开国皇帝朱元璋陵寝',
+          '神道两侧12对石像生，秋日银杏大道绝美',
+          '明楼、宝顶保存完好，规模宏大',
+          '与中山陵同处紫金山，可串联游览',
+        ],
+        gallery: [
+          {
+            title: '神道石像，秋日银杏',
+            image: mingxiaoling,
+            content: '明孝陵始建于1381年，是朱元璋与马皇后的合葬陵，也是北京明十三陵的蓝本。神道（孝陵神道）全长约1.8公里，蜿蜒曲折，不同于历代帝陵笔直中轴的规制，据说因循山势、顺乎自然。两侧依次排列狮、獬豸、骆驼、象、麒麟、马6种石兽共12对，后接2对武将、2对文臣，形态威严、雕工精湛。每逢深秋，神道两侧银杏金黄、枫叶似火，石像静立千百年，光影斑驳间被誉为"南京最美六百年"。',
+          },
+        ],
+      },
+      {
+        name: '夫子庙·秦淮河',
+        nameEn: 'Confucius Temple & Qinhuai River',
+        rating: 4.7,
+        type: '文化休闲',
+        tagline: '桨声灯影 · 十里秦淮夜游',
+        price: '免费（画舫游船约80-100元）',
+        duration: '2-3小时',
+        description: '南京最具烟火气的文化地标，夫子庙、江南贡院、乌衣巷、王导谢安纪念馆云集于此。入夜后秦淮河画舫穿梭、两岸灯火通明，"桨声灯影里的秦淮河"自古便是金陵风华的缩影。',
+        tips: '一定要晚上去！画舫夜游是精华；必吃鸭血粉丝汤、秦淮八绝小吃。',
+        image: fuzimiao,
+        highlights: [
+          '十里秦淮夜游，画舫穿梭灯火通明',
+          '江南贡院——中国最大的科举考场遗址',
+          '乌衣巷、王导谢安纪念馆，六朝文脉',
+          '秦淮八绝小吃：鸭血粉丝汤、桂花糕、糖芋苗',
+          '免费开放，夜景拍照超出片',
+        ],
+        gallery: [
+          {
+            title: '桨声灯影里的秦淮河',
+            image: fuzimiao,
+            content: '夫子庙秦淮风光带以夫子庙为核心，横跨秦淮河两岸。白天可逛江南贡院（中国科举博物馆）、乌衣巷、王导谢安纪念馆，触摸六朝与明清文脉。入夜后才是它最迷人的时刻——两岸古建筑群红灯笼高悬，画舫在秦淮河上缓缓穿行，"烟笼寒水月笼沙，夜泊秦淮近酒家"的诗意扑面而来。坐上画舫，听船娘一曲江南小调，看岸边灯影流转，便懂了朱自清笔下"桨声灯影里的秦淮河"。岸上小吃云集，鸭血粉丝汤、桂花糖芋苗、秦淮八绝，是金陵夜最暖的人间烟火。',
+          },
+        ],
+      },
+    ],
+    hotels: [
+      {
+        name: '南京紫金山金陵幕府温泉度假酒店',
+        nameEn: 'Jinling Mufu Hot Spring Resort',
+        stars: 5,
+        isFeatured: true,
+        priceRange: '800-1800元/晚',
+        location: '鼓楼区幕府山',
+        features: ['金陵品牌', '天然温泉', '山景客房', '度假养生', '幕府山畔'],
+        description: '金陵饭店集团旗下的温泉度假酒店，坐落于南京幕府山麓，依山傍水、闹中取静。酒店引天然温泉入户，拥有室内外温泉池、SPA养生中心与山景客房。泡一池温汤、望幕府山色，是南京城中最具疗愈感的度假之选。毗邻长江与南京站，前往中山陵、夫子庙等景点交通便利。',
+        tips: '建议入住带私汤的客房，秋冬泡汤体验最佳。',
+        image: jinlingWenquan,
+      },
+      { name: '南京金陵饭店', nameEn: 'Jinling Hotel Nanjing', stars: 5, priceRange: '700-1500元/晚', location: '新街口', features: ['老牌五星', '位置核心', '服务一流'], description: '南京标志性五星级酒店，位于新街口商圈核心，地理位置无可挑剔。' },
+      { name: '南京夫子庙亚朵酒店', nameEn: 'Atour Fuzimiao', stars: 4, priceRange: '400-700元/晚', location: '秦淮区', features: ['近夫子庙', '文艺风格', '性价比高'], description: '紧邻夫子庙秦淮风光带，文艺风格，适合休闲旅行。' },
+      { name: '南京夫子庙青年旅舍', nameEn: 'Fuzimiao Hostel', stars: 3, priceRange: '80-180元/晚', location: '秦淮区', features: ['经济实惠', '夜游方便', '氛围浓厚'], description: '位于老门东历史街区，适合背包客与预算有限的旅行者。' },
+    ],
+    tips: [
+      { title: '交通', content: '地铁覆盖主要景点，中山陵乘地铁2号线到苜蓿园站转景区交通；夫子庙乘地铁3号线到夫子庙站。' },
+      { title: '美食', content: '必吃：鸭血粉丝汤、盐水鸭、汤包、糖芋苗、桂花糕。夫子庙与老门东是美食聚集地。' },
+      { title: '最佳时间', content: '3-5月梧桐新绿、9-11月银杏金黄最美；避开梅雨季与盛夏酷暑。' },
+    ],
+  },
+  {
+    id: 'anji',
+    name: '安吉',
+    nameEn: 'Anji',
+    tagline: '中国竹乡，绿水青山',
+    taglineEn: 'Bamboo Capital of China',
+    region: '华东',
+    isFootprint: true,
+    footprintNote: '我的足迹 · 亲身到访',
+    bestSeason: '春夏秋（4-11月）',
+    avgBudget: '300-900元/天',
+    description: '安吉，取《诗经》"安且吉兮"之意得名，地处浙江西北部天目山北麓，是著名的"中国竹乡"。"绿水青山就是金山银山"理念在这里诞生。万亩竹海连绵起伏，云上草原云雾缭绕，竹博园内翠竹成林，是都市人洗肺减压、亲近自然的度假秘境。这是我亲身到访、最放松的足迹之一。',
+    image: anjiHero,
+    attractions: [
+      {
+        name: '云上草原',
+        nameEn: 'Yunshang Caoyuan',
+        rating: 4.8,
+        type: '自然风光',
+        tagline: '高山草原 · 云端上的天空之城',
+        price: '280元（含索道）',
+        duration: '一天',
+        description: '安吉云上草原高山四季旅游度假区，坐落于海拔1168米的高山之巅，拥有绵延的高山草甸、悬崖秋千、玻璃栈道、滑翔伞等数十项高空与草原体验项目。乘索道穿云而上，山顶云雾缭绕、绿草如茵，仿佛置身云端之上的天空之城，是华东最具网红气质的高山度假区。',
+        tips: '建议全天游玩；山顶气温比山下低5-8℃，记得带外套；悬崖秋千、飞拉达等刺激项目需单独购票。',
+        image: yunshangcaoyuan,
+        highlights: [
+          '海拔1168米高山草甸，索道穿云而上',
+          '悬崖秋千、玻璃栈道、步步惊心等高空项目',
+          '滑翔伞飞行，俯瞰安吉竹海全景',
+          '云端漂流、彩虹滑草，老少皆宜',
+          '云海日出堪称一绝，运气好可看云瀑',
+        ],
+        gallery: [
+          {
+            title: '云端之上的天空之城',
+            image: yunshangcaoyuan,
+            content: '云上草原位于安吉山川乡，占地约5000亩，主峰海拔1168米。乘坐全长2.3公里的高山客运索道，十几分钟便从山脚穿越云层直达山顶。一出索道站，眼前豁然开朗——绵延起伏的高山草甸铺展至天际，牛羊悠闲漫步，云雾在脚下翻涌流转。胆大的游客可挑战悬崖秋千、玻璃观景台、步步惊心等高空项目，脚下便是数百米深渊，肾上腺素飙升；也可体验滑翔伞，像鸟儿一样俯瞰安吉的万亩竹海。若逢清晨，云海日出染红天际，运气好还能看见壮观的云瀑倾泻而下，堪称华东最震撼的高山奇观。',
+          },
+        ],
+      },
+      {
+        name: '安吉竹博园',
+        nameEn: 'Anji Bamboo Expo Park',
+        rating: 4.6,
+        type: '自然风光',
+        tagline: '万竹世界 · 中国竹文化第一园',
+        price: '80元',
+        duration: '2-3小时',
+        description: '中国最大的竹类植物园，汇集了来自世界各地的396个竹子品种，占全球已知竹种近半数。园内翠竹成林、曲径通幽，有竹子博物馆、大熊猫馆、竹编体验等，是了解竹文化、亲近竹海的绝佳去处。',
+        tips: '可观看国宝大熊猫；竹编、竹刻非遗体验值得参与；建议与开元名都度假村同游（紧邻）。',
+        image: zhuboyuan,
+        highlights: [
+          '汇集全球396个竹子品种，世界之最',
+          '中国竹子博物馆，系统了解竹文化',
+          '可观看国宝大熊猫"珍好""珍爱"',
+          '竹编、竹刻非遗手作体验',
+          '紧邻开元名都度假村，可串联游玩',
+        ],
+        gallery: [
+          {
+            title: '万竹世界，翠竹成林',
+            image: zhuboyuan,
+            content: '安吉竹博园占地1200亩，是世界上散生竹种和丛生竹种收集最为齐全的竹类植物园。漫步园中，376个竹种分区栽植——有竿身方形的方竹、黑紫色的紫竹、竿壁金黄的金镶玉竹、节间膨如佛肚的佛肚竹，形态各异、蔚为大观。园内的中国竹子博物馆陈列着从新石器时代至今的竹器文物与竹文化史料，讲述着"宁可食无肉，不可居无竹"的千年情缘。竹博园还住着两只国宝大熊猫"珍好""珍爱"，憨态可掬地啃食安吉鲜竹，是孩子们最爱的打卡点。穿行翠竹夹道的石板小径，听竹叶沙沙、闻竹香清幽，都市的喧嚣瞬间被这片绿色涤荡一空。',
+          },
+        ],
+      },
+      {
+        name: '中国大竹海',
+        nameEn: 'China Grand Bamboo Sea',
+        rating: 4.7,
+        type: '自然风光',
+        tagline: '万亩竹海 · 卧虎藏龙拍摄地',
+        price: '58元',
+        duration: '2-3小时',
+        description: '电影《卧虎藏龙》竹林打斗戏的拍摄地，拥有66000亩毛竹林，是安吉竹海的标志性景区。登观竹楼远眺，万顷竹波翻涌如海，风吹竹涌、绿浪连天，气势磅礴。',
+        tips: '登观竹楼可俯瞰万亩竹海全景；景区内有玻璃桥可体验。',
+        image: dazhuhai,
+        highlights: [
+          '《卧虎藏龙》竹林打斗戏拍摄地',
+          '66000亩毛竹林，万顷竹波如海',
+          '登观竹楼俯瞰竹海全景',
+          '玻璃天桥横跨竹海，刺激出片',
+        ],
+        gallery: [
+          {
+            title: '卧虎藏龙的万亩竹海',
+            image: dazhuhai,
+            content: '中国大竹海地处安吉天荒坪，拥有66000亩浩瀚毛竹林，因李安导演电影《卧虎藏龙》中周润发与章子怡竹林巅峰对决的经典场面而闻名世界。走进竹海，参天毛竹直插云霄，竿竿青翠、密密匝匝，阳光只能从竹叶缝隙间漏下斑驳光影。山风拂过，万顷竹浪此起彼伏，发出沙沙巨响，如海潮涌动。登上山顶的观竹楼，眼前是无边无际的绿色竹海，山峦起伏间竹波翻涌，"竹海"二字在此刻有了最直观的注解。景区新建的玻璃天桥横跨两山之间，脚下便是万丈竹海，行走其上，惊心动魄又美不胜收。',
+          },
+        ],
+      },
+    ],
+    hotels: [
+      {
+        name: '安吉竹博园开元名都度假村',
+        nameEn: 'New Century Grand Resort Anji',
+        stars: 5,
+        isFeatured: true,
+        priceRange: '600-1500元/晚',
+        location: '安吉竹博园景区内',
+        features: ['开元名都', '紧邻竹博园', '亲子度假', '天然氧吧', '竹林别墅'],
+        description: '开元名都品牌旗下的高端度假村，坐落于安吉竹博园景区内，推窗即见万竹成林。度假村融合江南竹韵与现代度假理念，拥有竹林别墅、亲子主题房等多种房型，配套室内外泳池、儿童乐园、SPA与中餐厅。住客可免费游览竹博园，清晨在竹海中晨跑、夜晚听竹涛入眠，是安吉最具沉浸感的竹乡度假之选。',
+        tips: '入住含竹博园门票，性价比高；推荐预订竹林别墅，推门即入竹海。',
+        image: kaiyuanAnji,
+      },
+      { name: '安吉JW万豪酒店', nameEn: 'JW Marriott Anji', stars: 5, priceRange: '1000-2500元/晚', location: '安吉天荒坪', features: ['国际奢华', '山景客房', '高端餐饮'], description: '国际五星酒店，坐拥茶山竹海美景，设施豪华，适合高端度假。' },
+      { name: '安吉帐篷客·溪谷酒店', nameEn: 'Tentkeeper Anji', stars: 4, priceRange: '800-1800元/晚', location: '安吉天荒坪', features: ['野奢帐篷', '溪谷秘境', '网红打卡'], description: '溪谷中的野奢帐篷酒店，星空下听溪入眠，是安吉最受欢迎的网红度假酒店之一。' },
+      { name: '安吉大竹海民宿', nameEn: 'Bamboo Sea Homestay', stars: 3, priceRange: '200-500元/晚', location: '大竹海景区周边', features: ['民宿体验', '地道农家菜', '性价比高'], description: '大竹海周边的特色民宿，推门见竹海，可品尝地道安吉农家菜。' },
+    ],
+    tips: [
+      { title: '交通', content: '杭州自驾约1.5小时、上海约3小时可达；云上草原、大竹海建议自驾或包车前往。' },
+      { title: '美食', content: '必吃：安吉笋宴、竹筒饭、白茶、本鸡煲、山核桃。春笋最鲜，白茶最香。' },
+      { title: '最佳时间', content: '4-5月春笋破土、6-8月避暑纳凉、9-11月秋高气爽；夏天竹海清凉，是避暑胜地。' },
     ],
   },
   {

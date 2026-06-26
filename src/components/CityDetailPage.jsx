@@ -131,7 +131,12 @@ function CityDetailPage({ cityId, onBack }) {
         {activeTab === 'hotels' && (
           <div className="hotels-list">
             {city.hotels.map((h, i) => (
-              <div key={i} className={`hotel-card${h.isScenic ? ' scenic-hotel-card' : ''}`}>
+              <div key={i} className={`hotel-card${h.isScenic ? ' scenic-hotel-card' : ''}${h.isFeatured ? ' featured-hotel-card' : ''}`}>
+                {h.image && (
+                  <div className="hotel-image" style={{ backgroundImage: `url(${h.image})` }}>
+                    {h.isFeatured && <span className="featured-badge">⭐ 亲住推荐</span>}
+                  </div>
+                )}
                 <div className="hotel-header">
                   <div>
                     <h3 className="hotel-name">{h.name}</h3>
