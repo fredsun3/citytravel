@@ -117,6 +117,11 @@ export const cityImages = {
     emoji: '👣',
     label: '方岩山·一柱擎天',
   },
+  jinan: {
+    gradient: 'linear-gradient(135deg, #00695c 0%, #00838f 50%, #26a69a 100%)',
+    emoji: '👣',
+    label: '趵突泉·大明湖',
+  },
 };
 
 export function getCityImage(cityId) {

@@ -1,5 +1,7 @@
 import beijingHero from '../assets/beijing-hero.jpg';
 import beijingRegentHotel from '../assets/beijing-regent-hotel.jpg';
+import taihedian from '../assets/taihedian.jpg';
+import yuhuayuan from '../assets/yuhuayuan.jpg';
 import shaoguanHero from '../assets/shaoguan-hero.jpg';
 import danxiaMountain from '../assets/danxia-mountain.jpg';
 import nanhuaTemple from '../assets/nanhua-temple.jpg';
@@ -65,6 +67,12 @@ import huishanAncientTown from '../assets/huishan-ancient-town.jpg';
 import huishanOldStreet from '../assets/huishan-old-street.jpg';
 import huishanSpringFestival from '../assets/huishan-spring-festival.jpg';
 import nanchangNight from '../assets/nanchang-night.jpg';
+import yuantouzhuSakura from '../assets/yuantouzhu-sakura.jpg';
+import lingshanPalace from '../assets/lingshan-palace.jpg';
+import snowworldInterior from '../assets/snowworld-interior.jpg';
+import jichangGarden from '../assets/jichang-garden.jpg';
+import erquanDetail from '../assets/erquan-detail.jpg';
+import huishanLantern from '../assets/huishan-lantern.jpg';
 import taianHero from '../assets/taian-hero.jpg';
 import taishan from '../assets/taishan.jpg';
 import daimiao from '../assets/daimiao.jpg';
@@ -75,6 +83,81 @@ import fangyanTianmen from '../assets/fangyan-tianmen.jpg';
 import fangyanGuangci from '../assets/fangyan-guangci.jpg';
 import fangyanShoushan from '../assets/fangyan-shoushan.jpg';
 import jinhuaHotel from '../assets/jinhua-hotel.jpg';
+import shanghaiNeccDetail from '../assets/shanghai-necc-detail.jpg';
+import shanghaiHuangpuDetail from '../assets/shanghai-huangpu-detail.jpg';
+import shanghaiBaiyulanDetail from '../assets/shanghai-baiyulan-detail.jpg';
+import xianBingmayongDetail from '../assets/xian-bingmayong-detail.jpg';
+import xianTangnightDetail from '../assets/xian-tangnight-detail.jpg';
+import xianDayantaDetail from '../assets/xian-dayanta-detail.jpg';
+import xianHuaqingDetail from '../assets/xian-huaqing-detail.jpg';
+import hangzhouQiandaoDetail from '../assets/hangzhou-qiandao-detail.jpg';
+import hangzhouBojueDetail from '../assets/hangzhou-bojue-detail.jpg';
+import hangzhouTongluDetail from '../assets/hangzhou-tonglu-detail.jpg';
+import nanjingZhongshanDetail from '../assets/nanjing-zhongshan-detail.jpg';
+import nanjingMingxiaoDetail from '../assets/nanjing-mingxiao-detail.jpg';
+import nanjingFuzimiaoDetail from '../assets/nanjing-fuzimiao-detail.jpg';
+import anjiYunshangDetail from '../assets/anji-yunshang-detail.jpg';
+import anjiZhuboyuanDetail from '../assets/anji-zhuboyuan-detail.jpg';
+import anjiDazhuhaiDetail from '../assets/anji-dazhuhai-detail.jpg';
+import zhoushanDaqingshanDetail from '../assets/zhoushan-daqingshan-detail.jpg';
+import zhoushanPutuoDetail from '../assets/zhoushan-putuo-detail.jpg';
+import zhoushanShijianDetail from '../assets/zhoushan-shijian-detail.jpg';
+import ningboZhaobaoDetail from '../assets/ningbo-zhaobao-detail.jpg';
+import ningboCichengDetail from '../assets/ningbo-cicheng-detail.jpg';
+import ningboShiqifangDetail from '../assets/ningbo-shiqifang-detail.jpg';
+import qingdaoLaoshanDetail from '../assets/qingdao-laoshan-detail.jpg';
+import qingdaoNavyDetail from '../assets/qingdao-navy-detail.jpg';
+import qingdaoZhongshanDetail from '../assets/qingdao-zhongshan-detail.jpg';
+import suzhouTaihuDetail from '../assets/suzhou-taihu-detail.jpg';
+import suzhouZhuozhengDetail from '../assets/suzhou-zhuozheng-detail.jpg';
+import taianTaishanDetail from '../assets/taian-taishan-detail.jpg';
+import taianDaimiaoDetail from '../assets/taian-daimiao-detail.jpg';
+import shaoguanDanxiaDetail from '../assets/shaoguan-danxia-detail.jpg';
+import shaoguanNanhuaDetail from '../assets/shaoguan-nanhua-detail.jpg';
+import shenzhenWindowDetail from '../assets/shenzhen-window-detail.jpg';
+import shenzhenOctDetail from '../assets/shenzhen-oct-detail.jpg';
+import jinhuaFangyanDetail from '../assets/jinhua-fangyan-detail.jpg';
+import jinhuaTianmenDetail from '../assets/jinhua-tianmen-detail.jpg';
+import jinhuaGuangciDetail from '../assets/jinhua-guangci-detail.jpg';
+import jinhuaShoushanDetail from '../assets/jinhua-shoushan-detail.jpg';
+import shanghaiDisney from '../assets/shanghai-disney.jpg';
+import shanghaiDisneyDetail from '../assets/shanghai-disney-detail.jpg';
+import shanghaiHaichang from '../assets/shanghai-haichang.jpg';
+import shanghaiHaichangDetail from '../assets/shanghai-haichang-detail.jpg';
+import shanghaiYugarden from '../assets/shanghai-yugarden.jpg';
+import shanghaiYugardenDetail from '../assets/shanghai-yugarden-detail.jpg';
+import shanghaiPearlRestaurant from '../assets/shanghai-pearl-restaurant.jpg';
+import shanghaiPearlRestaurantDetail from '../assets/shanghai-pearl-restaurant-detail.jpg';
+import shanghaiOrientalLand from '../assets/shanghai-oriental-land.jpg';
+import shanghaiOrientalLandDetail from '../assets/shanghai-oriental-land-detail.jpg';
+import shanghaiTropicalStorm from '../assets/shanghai-tropical-storm.jpg';
+import shanghaiTropicalStormDetail from '../assets/shanghai-tropical-storm-detail.jpg';
+import zhoushanImpressionPutuo from '../assets/zhoushan-impression-putuo.jpg';
+import zhoushanImpressionPutuoDetail from '../assets/zhoushan-impression-putuo-detail.jpg';
+import zhoushanShengsi from '../assets/zhoushan-shengsi.jpg';
+import zhoushanShengsiDetail from '../assets/zhoushan-shengsi-detail.jpg';
+import xianLaomu from '../assets/xian-laomu.jpg';
+import xianLaomuDetail from '../assets/xian-laomu-detail.jpg';
+import xianBeacon from '../assets/xian-beacon.jpg';
+import xianBeaconDetail from '../assets/xian-beacon-detail.jpg';
+import xianBulletWall from '../assets/xian-bullet-wall.jpg';
+import xianBulletWallDetail from '../assets/xian-bullet-wall-detail.jpg';
+import xianJiangOffice from '../assets/xian-jiang-office.jpg';
+import xianJiangOfficeDetail from '../assets/xian-jiang-office-detail.jpg';
+import xianCixiPalace from '../assets/xian-cixi-palace.jpg';
+import xianCixiPalaceDetail from '../assets/xian-cixi-palace-detail.jpg';
+import jinanHero from '../assets/jinan-hero.jpg';
+import jinanBaotu from '../assets/jinan-baotu.jpg';
+import jinanBaotuDetail from '../assets/jinan-baotu-detail.jpg';
+import jinanDaming from '../assets/jinan-daming.jpg';
+import jinanDamingDetail from '../assets/jinan-daming-detail.jpg';
+import jinanQianfo from '../assets/jinan-qianfo.jpg';
+import jinanQianfoDetail from '../assets/jinan-qianfo-detail.jpg';
+import jinanBotanical from '../assets/jinan-botanical.jpg';
+import jinanBotanicalDetail from '../assets/jinan-botanical-detail.jpg';
+import jinanRiverdance from '../assets/jinan-riverdance.jpg';
+import jinanRiverdanceDetail from '../assets/jinan-riverdance-detail.jpg';
+import jinanHotel from '../assets/jinan-hotel.jpg';
 
 export const cities = [
   {
@@ -138,7 +221,7 @@ export const cities = [
         duration: '4-6小时',
         description: '世界上现存规模最大、保存最完整的木质结构古建筑群，明清两代24位皇帝的皇宫，占地72万平方米，拥有9000多间房屋。中轴线上的太和殿、中和殿、保和殿三大殿金碧辉煌，是明清皇家举行大典之所；后廷的乾清宫、交泰殿、坤宁宫与东西六宫则是帝后生活区。红墙黄瓦、雕梁画栋，是世界文化遗产，也是中华文明的瑰宝。',
         tips: '必须提前在"故宫博物院"官网/小程序实名预约购票，周一闭馆；建议从午门进、神武门出，单向参观；上午8点开门尽早入园可避人流；珍宝馆、钟表馆需另购票，值得一看。',
-        image: beijingHero,
+        image: taihedian,
         highlights: [
           '世界现存最大木质结构宫殿建筑群，世界文化遗产',
           '占地72万平方米，9000余间房屋，明清24位皇帝居所',
@@ -149,7 +232,7 @@ export const cities = [
         gallery: [
           {
             title: '紫禁城的红墙金瓦',
-            image: beijingHero,
+            image: yuhuayuan,
             content: '故宫又称紫禁城，始建于明永乐四年（1406年），历时14年建成，是明清两代的皇宫。四面环绕高10米的城墙，外有宽52米的护城河，四角各建一座精巧角楼。从午门进入，首先映入眼帘的是太和殿广场，太和殿俗称"金銮殿"，是中国现存最大的木结构大殿，皇帝登基、大婚、册立等大典均在此举行。殿内金漆雕龙宝座居于高台之上，六根蟠龙金柱环绕，藻井中央倒悬的轩辕镜相传可辨真伪天子。穿过乾清门进入后廷，乾清宫是皇帝寝宫与处理日常政务之处，"正大光明"匾后藏有立储密匣。御花园古柏苍翠、奇石玲珑，是帝后游憩之所。漫步红墙夹道，看琉璃瓦在阳光下熠熠生辉，六百年的皇家气象扑面而来。',
           },
         ],
@@ -233,7 +316,7 @@ export const cities = [
         gallery: [
           {
             title: '四叶草里的世界会展之最',
-            image: necc,
+            image: shanghaiNeccDetail,
             content: '国家会展中心（上海）坐落于虹桥商务区核心区，总建筑面积约147万平方米，其中展厅面积40万平方米，是世界最大单体会展建筑。从空中俯瞰，建筑呈四叶草造型，中央圆厅为"花蕊"，四片"叶子"为展厅，寓意"幸运、繁荣、和谐、发展"。每年11月，中国国际进口博览会（CIIE）在此举办，全球企业云集、万商来华，是中国向世界开放市场的标志性窗口。即便非展期，其恢宏的建筑本身就是一道风景——银白色的金属屋面在阳光下熠熠生辉，如一朵巨大的四叶草绽放于大虹桥。',
           },
         ],
@@ -259,7 +342,7 @@ export const cities = [
         gallery: [
           {
             title: '一江两岸，魔都夜色',
-            image: huangpuNight,
+            image: shanghaiHuangpuDetail,
             content: '黄浦江夜游是上海必体验项目，蓝森号游船从十六铺码头或其昌栈码头出发，沿黄浦江航行约50-60分钟。船行江中，西岸是外滩52幢万国建筑博览群，古典立柱与穹顶在暖黄灯光下金碧辉煌；东岸是陆家嘴金融区，东方明珠、上海中心（632米）、环球金融中心、金茂大厦直插云霄，LED灯光秀变幻莫测。船过杨浦大桥与南浦大桥，桥身灯光如彩虹横跨江面。站在游船甲板上，江风拂面、灯火倒映水中，一座城市的百年沧桑与摩登繁华在两岸同时上演，这便是"魔都"最迷人的夜。',
           },
         ],
@@ -285,15 +368,170 @@ export const cities = [
         gallery: [
           {
             title: '320米云端看魔都',
-            image: baiyulanStage,
+            image: shanghaiBaiyulanDetail,
             content: 'The Stage 白玉兰观景台位于虹口北外滩白玉兰广场顶层，建筑高319.5米，是浦西第一高楼。观景台位于320米高空，360度落地玻璃幕墙将上海天际线尽收眼底——脚下是黄浦江在此画出一道优美弧线的"浦江第一弯"，正前方对岸是陆家嘴三大高楼与东方明珠，左侧是外滩万国建筑博览群绵延1.5公里，右侧是杨浦大桥与北外滩滨水空间。不同于东方明珠"身在陆家嘴看外滩"，这里"身在浦西看陆家嘴"，视角独一无二。日落时分，夕阳为陆家嘴镀上金边，华灯初上后万家灯火与江面倒影交相辉映，被无数旅行者评为"上海看夜景天花板"。',
           },
         ],
       },
       { name: '外滩', nameEn: 'The Bund', rating: 4.9, type: '城市景观', price: '免费', duration: '2-3小时', description: '上海最标志性的景观，52幢各种风格的古典主义大楼沿黄浦江排列，被誉为"万国建筑博览群"。', tips: '晚上的灯光秀最美，建议日落时分前往' },
       { name: '东方明珠广播电视塔', nameEn: 'Oriental Pearl Tower', rating: 4.7, type: '城市景观', price: '199元', duration: '2-3小时', description: '上海的标志性建筑，高468米，可在观光层俯瞰浦江两岸全景。', tips: '建议购买含透明观光层的套票' },
-      { name: '豫园', nameEn: 'Yu Garden', rating: 4.7, type: '历史古迹', price: '40元', duration: '2-3小时', description: '始建于明代的古典园林，江南园林艺术的经典之作，周边城隍庙小吃丰富。', tips: '周末人多，城隍庙的小笼包和南翔香头必吃' },
       { name: '田子坊', nameEn: 'Tianzifang', rating: 4.5, type: '文化艺术', price: '免费', duration: '2-3小时', description: '由石库门弄堂改造而成的艺术区，汇聚了众多画廊、工艺品店、咖啡馆和餐厅。', tips: '下午去最好，很多小店上午不开门' },
+      {
+        name: '豫园',
+        nameEn: 'Yu Garden',
+        rating: 4.7,
+        type: '历史古迹',
+        tagline: '四百年江南名园 · 城隍庙烟火',
+        price: '40元（旺季45元）',
+        duration: '2-3小时',
+        description: '豫园始建于明嘉靖三十八年（1559年），历时二十余年建成，是上海现存最完整的古典园林，被誉为"奇秀甲于东南"。园主潘允端曾任四川布政使，建园为"愉悦双亲"，"豫"通"愉"，故名豫园。周边城隍庙商圈小吃云集，是上海最具老城厢烟火气的地标。',
+        tips: '建议上午开园即入，避开人流高峰；联票含城隍庙；南翔馒头店小笼包必尝，九曲桥畔拍照最佳。',
+        image: shanghaiYugarden,
+        highlights: [
+          '上海现存最完整的古典园林，始建于明嘉靖年间',
+          '被誉为"奇秀甲于东南"，江南五大名园之一',
+          '镇园之宝"玉玲珑"为太湖石四大名石之一',
+          '九曲桥与湖心亭是老上海最经典的影像符号',
+          '毗邻城隍庙，南翔小笼、本帮小吃荟萃',
+        ],
+        gallery: [
+          {
+            title: '四百年江南名园的咫尺山林',
+            image: shanghaiYugardenDetail,
+            content: '豫园坐落于上海老城厢东北部，占地30余亩，是江南古典园林的集大成之作。整座园林以大假山为主景，由明代叠山名家张南阳主持堆叠，高约12米，用数千吨武康石垒成，是江南现存最古老的明代假山。园内分六大景区：三穗堂、万花楼、点春堂、会景楼、玉华堂、内园。三穗堂是入园第一景，宏敞高大；点春堂曾是1853年上海小刀会起义的城北指挥所，现存"点春堂"匾额为晚清书家所题。玉华堂前的"玉玲珑"是镇园之宝——这块太湖石高3.3米，通体褶皱、窍孔相连，相传为宋徽宗花石纲遗物，与苏州瑞云峰、杭州绉云峰并称"江南三大名石"，以一缕香烧之，烟雾可穿透所有窍孔；以一盆水灌之，孔孔流泉。园南的九曲桥横跨荷花池，桥中湖心亭茶楼是上海最古老的茶楼，九曲十八弯的桥身倒映池中，与朱栏碧瓦相映成画，是老上海明信片最经典的图案。出园即是城隍庙商圈，青砖黛瓦间飘来南翔小笼包的蒸香、蟹壳黄的酥香、酒酿圆子的甜香——四百年的园林与百年的市井烟火在此交融，这才是真正的"老上海"。',
+          },
+        ],
+      },
+      {
+        name: '上海迪士尼乐园',
+        nameEn: 'Shanghai Disneyland',
+        rating: 4.8,
+        type: '主题乐园',
+        tagline: '奇幻童话城堡 · 中国大陆首座迪士尼',
+        price: '435-769元（常规/高峰/假日）',
+        duration: '一天至两天',
+        description: '上海迪士尼乐园位于浦东新区川沙镇，是中国大陆首座迪士尼主题乐园，2016年6月开园。乐园拥有全球最高最大的奇幻童话城堡，汇聚八大主题园区，融合迪士尼经典故事与中国元素，是亲子度假与童心寻梦的圣地。',
+        tips: '提前在官方APP购票并预约入园；建议早9点入园，先玩热门项目（翱翔·飞越地平线、创极速光轮）；可购买尊享卡减少排队；夜晚烟花秀8点开始，提前1小时占位。',
+        image: shanghaiDisney,
+        highlights: [
+          '中国大陆首座迪士尼乐园，2016年开园',
+          '全球最高最大的奇幻童话城堡（高60米）',
+          '八大主题园区：米奇大街、奇想花园、探险岛、宝藏湾、明日世界、梦幻世界、玩具总动员、疯狂动物城',
+          '翱翔·飞越地平线、创极速光轮、加勒比海盗为三大必玩',
+          '夜间烟花光影秀点亮童话城堡，浪漫至极',
+        ],
+        gallery: [
+          {
+            title: '点亮心中奇梦的童话王国',
+            image: shanghaiDisneyDetail,
+            content: '上海迪士尼乐园占地390公顷，是亚洲第三座、世界第六座迪士尼乐园。乐园以"原汁原味迪士尼，别具一格中国风"为设计理念，园内奇幻童话城堡高60米，是世界上最高最大的迪士尼城堡，塔尖缀以一朵代表上海市花白玉兰的金色牡丹。八大主题园区各具特色：米奇大街是入园 first sight，色彩斑斓的商铺与花车巡游起点；奇想花园有十二朋友园，将迪士尼角色与中国十二生肖巧妙结合；探险岛的"翱翔·飞越地平线"带你在5D球幕中飞跃世界地标，是排队最长的项目；宝藏湾是全球首个加勒比海盗主题园区，"加勒比海盗—沉落宝藏之战"乘船沉浸式体验杰克船长的冒险；明日世界的"创极速光轮"是全球迪士尼最快最刺激的过山车，摩托车造型科幻感爆棚；梦幻世界有"七个小矮人矿山车"和小飞侠天空奇遇；玩具总动员园区让人化身巴斯光年与胡迪；最新开放的疯狂动物城园区以朱迪、尼克为主题，精心复刻电影中的动物大都会。每晚8点的"点亮奇梦：夜光幻影秀"在城堡上投影米奇与迪士尼公主故事，配以烟花与音乐，是乐园最浪漫的高潮。地铁11号线直达迪士尼站，建议安排一整天甚至两天深度游玩。',
+          },
+        ],
+      },
+      {
+        name: '上海海昌海洋公园',
+        nameEn: 'Shanghai Haichang Ocean Park',
+        rating: 4.6,
+        type: '主题乐园',
+        tagline: '虎鲸剧场 · 五大动物剧场',
+        price: '330-460元（成人/高峰）',
+        duration: '一天',
+        description: '上海海昌海洋公园位于浦东新区临港新城，紧邻滴水湖，2018年开园，是华东地区规模最大的海洋主题公园。园内汇聚300余种、45000余只海洋极地动物，五大动物剧场与六大主题园区，是亲子科普与海洋奇遇的胜地。',
+        tips: '建议地铁16号线临港大道站直达；虎鲸剧场是必看，提前30分钟入场占位；夏日水上乐园开放，可带泳衣；联票含摩天轮更划算。',
+        image: shanghaiHaichang,
+        highlights: [
+          '华东最大海洋主题公园，2018年开园',
+          '虎鲸剧场为中国大陆唯一虎鲸表演',
+          '300余种45000余只海洋极地动物',
+          '南极企鹅馆、北极熊馆、火山鲨鱼馆等特色场馆',
+          '海豚过山车、深海漂流等刺激游乐设施',
+        ],
+        gallery: [
+          {
+            title: '虎鲸跃浪 · 极地海洋奇遇',
+            image: shanghaiHaichangDetail,
+            content: '上海海昌海洋公园占地29.7公顷，以"海洋文化"为主题，围绕海洋与极地两大核心，打造了人鱼海湾、极地小镇、冰雪王国、海洋奇幻、海盗部落五大主题区。最负盛名的是虎鲸剧场——这里是中国大陆唯一能看到虎鲸（杀人鲸）表演的场馆，体长8米的虎鲸跃出水面再重重砸下，激起千层浪花，震撼人心。海豚剧场、海狮剧场、白鲸剧场、海象剧场各具特色，五大动物剧场轮番上演精彩行为展示。南极企鹅馆生活着帝企鹅、国王企鹅、巴布亚企鹅等数十种企鹅，在冰雪世界中蹒跚行走；北极熊馆的北极熊在巨大水族箱中悠然游泳，透过玻璃可见其庞大的身躯；火山鲨鱼馆的鲨鱼礁湖里，护士鲨、豹纹鲨从头顶游过，沉浸式海底隧道如梦似幻；珊瑚水母馆的月亮水母在彩色灯光下翩翩起舞。除动物展示外，海豚过山车以90公里时速穿山越海，深海漂流激流勇进，海上摩天轮高108米可俯瞰整个临港与滴水湖全景。地铁16号线临港大道站直达，是亲子科普与海洋奇遇的绝佳目的地。',
+          },
+        ],
+      },
+      {
+        name: '东方明珠旋转餐厅',
+        nameEn: 'Oriental Pearl Revolving Restaurant',
+        rating: 4.7,
+        type: '城市景观',
+        tagline: '267米云端 · 亚洲最高旋转餐厅',
+        price: '自助餐 398-598元/位（含观光）',
+        duration: '2-3小时',
+        description: '东方明珠广播电视塔267米高空旋转餐厅，是亚洲最高的旋转餐厅，每2小时旋转一周，360度俯瞰浦江两岸魔都全景。边享自助美食边看夜景，是上海最浪漫的用餐体验之一。',
+        tips: '务必提前1-2周预订靠窗位；晚餐时段17:30-20:30可同时看日落与夜景；自助餐含观光层门票；着装商务休闲。',
+        image: shanghaiPearlRestaurant,
+        highlights: [
+          '位于东方明珠塔267米高空，亚洲最高旋转餐厅',
+          '每2小时旋转一周，360度全景观赏浦江两岸',
+          '自助餐汇聚中西美食，含生鱼片、龙虾、牛排',
+          '晚餐时段可同时看日落、夜景与外滩灯光秀',
+          '含263米主观光层与259米透明悬空观光廊门票',
+        ],
+        gallery: [
+          {
+            title: '267米云端的浪漫晚宴',
+            image: shanghaiPearlRestaurantDetail,
+            content: '东方明珠旋转餐厅位于东方明珠广播电视塔上球体267米处，是亚洲最高的空中旋转餐厅。餐厅呈环形布局，外圈是落地玻璃窗，内圈是自助餐台，座位区以每2小时一周的速度缓慢旋转，让食客无需移动即可360度俯瞰上海全景。白天可远眺外滩万国建筑群、陆家嘴摩天楼群、黄浦江蜿蜒入海；日落时分，夕阳为浦江镀金，陆家嘴的玻璃幕墙折射出绚烂霞光；入夜后，外滩52幢建筑依次亮灯，金碧辉煌的万国建筑博览群与对岸陆家嘴的LED灯光秀隔江相望，黄浦江游船的灯火在脚下缓缓划过——这是上海最经典的夜景画卷，而你在画卷的中央。自助餐汇聚环球美食：阿拉斯加帝王蟹腿、挪威三文鱼刺身、澳洲牛排、法式鹅肝、中式本帮红烧肉、港式烧腊、日式寿司、甜品蛋糕台应有尽有。用餐含263米主观光层与259米透明悬空观光廊门票，餐后可到全透明玻璃栈道体验"空中漫步"。建议预订18:00的晚餐时段，2小时用餐正好完成一圈旋转，日景、日落、夜景一次看尽。',
+          },
+        ],
+      },
+      {
+        name: '东方绿舟',
+        nameEn: 'Shanghai Oriental Land',
+        rating: 4.5,
+        type: '自然风光',
+        tagline: '仿真航母 · 国防教育主题公园',
+        price: '50元（部分项目另收费）',
+        duration: '半天至一天',
+        description: '东方绿舟位于上海青浦区淀山湖畔，占地5600亩，是上海最大的郊野公园与全国最大的国防教育基地。园内拥有1:1仿真航空母舰、潜艇、战机等军事装备，融合国防教育、拓展训练、生态观光于一体，是青少年研学与亲子出游的热门目的地。',
+        tips: '建议自驾或地铁17号线东方绿舟站；仿真航母内部为国防教育馆，务必参观；夏日可玩趣桥与水上项目；带好运动鞋，园区较大。',
+        image: shanghaiOrientalLand,
+        highlights: [
+          '上海最大郊野公园，占地5600亩',
+          '1:1仿真航空母舰（长220米）为全国唯一',
+          '国防教育馆展示退役战机、坦克、潜艇',
+          '智慧大道、趣桥、绿舟湖等八大景区',
+          '青少年军训与拓展训练的重要基地',
+        ],
+        gallery: [
+          {
+            title: '淀山湖畔的航母与国防课堂',
+            image: shanghaiOrientalLandDetail,
+            content: '东方绿舟坐落于青浦区淀山湖畔，紧邻沪青平公路，是上海"十五"期间重点建设的都市生态园林，也是全国青少年校外活动营地。园区占地5600亩，其中水面2000亩，由知识大道区、国防园区、生态园区、生存挑战区、运动训练区、生活实践区、水上运动区、娱乐活动区八大区域组成。最震撼的景观是国防园区内停泊的"仿真航空母舰"——这艘按1:1比例建造的"航母"长220米、宽46米、高46米，相当于真实尼米兹级航母的尺寸，舰上停放着退役歼-5、歼-6战斗机与直-5直升机，舰内为"中国国防教育馆"，展示从古代兵器的演变到现代国防科技的发展，是青少年国防教育的生动课堂。航母旁还有一艘退役的033型潜艇可入内参观，体验水兵生活。智慧大道两侧矗立162尊中外名人雕像，从孔子、柏拉图到爱因斯坦、钱学森，被誉为"世界名人蜡像馆"；趣桥区有20余座造型各异的桥，独木桥、铁索桥、网桥考验平衡与勇气；绿舟湖可划船、玩水上滚筒球；拓展训练区有攀岩、速降、毕业墙等项目。地铁17号线东方绿舟站直达，是周末亲子出游与青少年研学的绝佳目的地。',
+          },
+        ],
+      },
+      {
+        name: '上海热带风暴水上乐园',
+        nameEn: 'Shanghai Tropical Storm Water Park',
+        rating: 4.4,
+        type: '主题乐园',
+        tagline: '亚洲最大露天水上乐园 · 霹雳河与风暴滩',
+        price: '120-200元（旺季/平日）',
+        duration: '半天至一天',
+        description: '上海热带风暴水上乐园位于闵行区新镇路，是亚洲最大的露天水上乐园之一。园内拥有亚洲最长的1200米霹雳河（环形漂流河）与亚洲最大的6000㎡风暴滩（造波池），20余项水上游乐设施，是上海盛夏消暑的玩水圣地。',
+        tips: '仅夏季（6-9月）开放；务必自带泳衣、拖鞋、防晒霜；霹雳河与风暴滩必玩；周末人多，建议工作日前往；园区内可租储物柜。',
+        image: shanghaiTropicalStorm,
+        highlights: [
+          '亚洲最大露天水上乐园之一，位于闵行区',
+          '霹雳河长1200米，亚洲最长环形漂流河',
+          '风暴滩6000㎡，亚洲最大造波池',
+          '20余项水上游乐设施，含高空滑道、家庭滑梯',
+          '盛夏消暑圣地，6-9月开放',
+        ],
+        gallery: [
+          {
+            title: '盛夏魔都的玩水狂欢',
+            image: shanghaiTropicalStormDetail,
+            content: '上海热带风暴水上乐园坐落于闵行区新镇路顾戴路口，占地约130亩，是上海乃至长三角地区最具盛名的水上乐园之一。园内最负盛名的两大"亚洲之最"——霹雳河与风暴滩，是夏日玩水的灵魂。霹雳河全长1200米，是亚洲最长的环形漂流河，乘着浮圈随波逐流，沿途穿越瀑布、水帘洞、激流险滩，时而湍急时而平缓，全程约30分钟，悠哉又刺激。风暴滩是亚洲最大的造波池，面积达6000平方米，可产生1.5米高的人造海浪，躺在浮圈上随浪起伏，仿佛置身大海；池畔白沙如银，配上棕榈树与阳光，一秒穿越到热带海滩。除两大招牌外，园内还有20余项水上游乐设施：冒险家乐园的高空滑道从18米平台俯冲而下，失重感令人尖叫；家庭滑梯可亲子同乘；云端滑道蜿蜒曲折；儿童戏水区有迷你滑梯与互动水枪，是低龄儿童的水上天堂。乐园仅每年6月至9月开放，盛夏周末人潮汹涌，建议工作日前往或早9点开园即入。地铁12号线虹梅路站转公交可达，自驾有大型停车场。带好泳衣、防晒霜与浴巾，在魔都的酷暑中尽情戏水狂欢。',
+          },
+        ],
+      },
     ],
     hotels: [
       {
@@ -353,7 +591,7 @@ export const cities = [
         gallery: [
           {
             title: '穿越两千年的地下军团',
-            image: bingmayong,
+            image: xianBingmayongDetail,
             content: '秦始皇兵马俑发现于1974年，是秦始皇陵的陪葬坑。目前已发掘三个俑坑，呈品字形排列。一号坑最大，长230米、宽62米，坑内排列着约6000件步兵陶俑，组成方阵，气势磅礴。陶俑原本彩绘，出土后遇空气褪色，但发髻、铠甲、鞋底的细节依旧清晰可辨。将军俑昂首挺胸、武士俑蓄势待发，凝视这支沉睡两千年的地下军团，秦帝国的金戈铁马仿佛就在眼前。',
           },
         ],
@@ -379,7 +617,7 @@ export const cities = [
         gallery: [
           {
             title: '灯火长安夜',
-            image: tangbubuyecheng,
+            image: xianTangnightDetail,
             content: '大唐不夜城以大雁塔为北端起点，沿雁塔南路向南延伸1500米。两侧仿唐建筑飞檐斗拱、层楼叠榭，入夜后被金色灯火点亮，宛若重现"九天阊阖开宫殿，万国衣冠拜冕旒"的盛唐气象。街中分布着"盛唐密盒""不倒翁""石头人"等互动演出，不倒翁小姐姐身披唐装翩翩起舞，与游客牵手互动，曾红遍全网。漫步其间，灯火阑珊、人潮如织，是感受"长安十二时辰"夜生活最直接的窗口。',
           },
         ],
@@ -404,7 +642,7 @@ export const cities = [
         gallery: [
           {
             title: '玄奘藏经的千年禅意',
-            image: dayanta,
+            image: xianDayantaDetail,
             content: '大雁塔始建于唐永徽三年（652年），是玄奘法师为保存从印度经丝绸之路带回的经卷佛像而建。塔身青砖砌筑、仿木结构，七层方形锥体由下而上逐层递减，端庄古朴。塔内石门门楣上的唐代线刻佛像至今清晰可辨。登塔远眺，大雁塔南北广场与大唐不夜城尽收眼底。每到夜晚，北广场的矩阵音乐喷泉随乐起舞，水柱冲天，古塔与现代光影交相辉映，是西安最具代表性的文化地标。',
           },
         ],
@@ -431,8 +669,138 @@ export const cities = [
         gallery: [
           {
             title: '一宫藏千年，骊山映温泉',
-            image: huaqinggong,
+            image: xianHuaqingDetail,
             content: '华清宫位于西安市临潼区骊山北麓，距市区约30公里。2007年起，华清池与骊山景区合并为统一的"华清宫景区"，一张门票即可通游山下宫殿与山上名胜。山下核心是唐御汤遗址博物馆，杨贵妃专用的"海棠汤"由24块墨玉铺砌，形似盛开海棠花，中心进水口上方的莲花喷头被誉为"中国最早的花洒"；唐玄宗的"莲花汤"呈八边形，面积达60平方米，彰显天子气派。五间厅是1936年西安事变发生地，蒋介石下榻之处，墙面上的弹孔至今清晰可辨。九龙湖与芙蓉湖碧波荡漾，湖光山色间适合古风摄影。乘索道上骊山，可达老母殿（供奉女娲娘娘）与烽火台——周幽王"烽火戏诸侯"的典故便发生于此。入夜，大型实景历史舞剧《长恨歌》以骊山为天然幕布，再现李隆基与杨玉环"在天愿作比翼鸟，在地愿为连理枝"的千古绝唱，是华清宫游览不可错过的压轴大戏。',
+          },
+        ],
+      },
+      {
+        name: '骊山老母殿',
+        nameEn: 'Laomu Hall of Lishan',
+        rating: 4.6,
+        type: '历史古迹',
+        tagline: '女娲道场 · 中华创世神话圣地',
+        price: '含华清宫门票（120元）',
+        duration: '1-2小时',
+        description: '老母殿位于骊山西绣岭第二峰之巅，是供奉中华始祖女娲娘娘的道教宫观。相传女娲在此"炼石补天、抟土造人"，骊山因此被尊为中华文明发祥地之一。老母殿始建于唐代，现存为明清建筑，每年农历六月十三女娲圣诞日，香客云集、庙会盛况空前。',
+        tips: '从华清宫乘索道上骊山，老母殿为索道上站附近核心景点；可与烽火台、晚照亭同游；六月十三女娲庙会最热闹；登殿可俯瞰华清宫全景与临潼城区。',
+        image: xianLaomu,
+        highlights: [
+          '供奉中华始祖女娲娘娘的道教圣地',
+          '相传女娲在此"炼石补天、抟土造人"',
+          '骊山被尊为中华文明发祥地之一',
+          '始建于唐代，现存明清建筑群',
+          '农历六月十三女娲圣诞庙会，香客云集',
+        ],
+        gallery: [
+          {
+            title: '女娲炼石补天的骊山道场',
+            image: xianLaomuDetail,
+            content: '老母殿坐落于骊山西绣岭第二峰之巅，海拔约980米，是骊山海拔最高的核心宗教建筑群。山门朝北，沿石阶而上依次为灵官殿、老母殿、三霄殿等建筑。主殿老母殿面阔五间，单檐歇山顶，殿内正中供奉女娲娘娘金身塑像，头戴凤冠、身披霞帔，慈眉善目俯瞰众生。女娲是中国上古神话中最尊贵的女神，《淮南子》载"女娲炼五色石以补苍天，断鳌足以立四极"，骊山正是传说中她取石补天之地。殿前香炉终年香烟缭绕，四方信众络绎不绝。每年农历六月十三女娲圣诞日，骊山庙会如期举行，来自陕西、山西、河南等地的香客结队登山，朝拜老母、祈福消灾，庙会延续数日，是西北地区规模最大的民间朝圣活动之一。立于殿前平台远眺，骊山层峦叠翠，山下华清宫九龙湖、芙蓉湖如碧玉镶嵌，远处渭河平原沃野千里，天气晴好时甚至可遥望西安城区。',
+          },
+        ],
+      },
+      {
+        name: '骊山烽火台',
+        nameEn: 'Lishan Beacon Tower',
+        rating: 4.5,
+        type: '历史古迹',
+        tagline: '烽火戏诸侯 · 西周亡国遗址',
+        price: '含华清宫门票（120元）',
+        duration: '1小时',
+        description: '骊山烽火台位于西绣岭第一峰之巅，是西周周幽王"烽火戏诸侯"典故发生地。相传周幽王为博褒姒一笑，点燃烽火戏弄诸侯，最终导致西周灭亡。现存烽火台为后世重建，登台可俯瞰关中平原与渭河如带，是骊山最高点。',
+        tips: '从老母殿沿山脊步行约15分钟可达；登台需爬陡峭石阶；山顶风大，建议带外套；日落时分关中平原尽收眼底，是骊山最佳观景点。',
+        image: xianBeacon,
+        highlights: [
+          '周幽王"烽火戏诸侯"典故发生地',
+          '西周灭亡的历史见证，"一笑倾人国"',
+          '骊山西绣岭第一峰之巅，海拔约1300米',
+          '登台可俯瞰关中平原与渭河如带',
+          '骊山最高观景点，日落时分景色绝佳',
+        ],
+        gallery: [
+          {
+            title: '一笑倾人国的西周烽火',
+            image: xianBeaconDetail,
+            content: '骊山烽火台位于西绣岭第一峰顶，是骊山最高点。据《史记·周本纪》载，西周末年，周幽王宠幸褒姒，然褒姒终日不笑。幽王为博美人一笑，命人点燃骊山烽火。烽火是古代军事报警系统，诸侯见烽火必领兵勤王。然而诸侯兵马匆匆赶至骊山，却不见敌情，褒姒见诸侯狼狈之状终于展颜一笑。后申侯联合犬戎真的进攻镐京，幽王再燃烽火，诸侯以为又是戏弄无人来救，幽王被杀于骊山之下，西周遂亡——"烽火戏诸侯"由此成为"亡国"的代名词。现存烽火台为后人于原址重建，方形砖石结构，台高约10米，内有石阶可登顶。立于烽火台顶，关中平原沃野千里尽收眼底，渭河如银带蜿蜒其间，远处秦岭连绵起伏。千年烽烟早已散尽，唯余山河依旧，令人唏嘘"一笑倾人国"的历史教训。',
+          },
+        ],
+      },
+      {
+        name: '西安事变枪弹墙',
+        nameEn: 'Xi’an Incident Bullet Wall',
+        rating: 4.8,
+        type: '历史古迹',
+        tagline: '五间厅弹痕 · 改变中国命运的枪声',
+        price: '含华清宫门票（120元）',
+        duration: '1小时',
+        description: '华清宫五间厅（桐荫轩）是1936年12月12日西安事变发生地，张学良、杨虎城将军在此发动兵谏，扣留蒋介石。五间厅墙面与玻璃窗上至今留存当年的弹孔，是西安事变最直接的历史物证，被誉为"改变中国命运的枪弹墙"。',
+        tips: '五间厅位于华清宫环园内，九龙湖南岸；参观时留意墙面与窗玻璃上的真实弹孔；结合兵谏亭（骊山蒋介石藏身处）一起参观更完整；建议请讲解员了解事变细节。',
+        image: xianBulletWall,
+        highlights: [
+          '1936年12月12日西安事变发生地',
+          '张学良、杨虎城发动兵谏扣留蒋介石',
+          '墙面与玻璃窗留存真实弹孔，历史物证',
+          '五间厅由西向东：秘书室、蒋卧室、办公室、会议室、侍从室',
+          '促成了第二次国共合作与抗日民族统一战线',
+        ],
+        gallery: [
+          {
+            title: '改变中国命运的那一夜',
+            image: xianBulletWallDetail,
+            content: '1936年12月，蒋介石赴西安督促"剿共"，下榻华清池五间厅。12月12日凌晨4时，张学良的东北军与杨虎城的十七路军联合发动兵谏，包围五间厅。激烈的枪战在院中爆发，蒋介石的侍卫拼死抵抗，蒋本人闻枪声身着睡衣、未及穿鞋，从后窗翻出，攀越后墙跌入沟壑伤及腰背，由侍卫搀扶藏匿于骊山虎斑石缝隙中。东北军搜山至天明，上午8时左右将蒋介石搜出，护送至西安城内，西安事变爆发。事变和平解决后，蒋介石接受"停止内战、联共抗日"的主张，成为扭转时局的枢纽，为抗日民族统一战线的形成奠定了基础。今日的五间厅按1936年原貌复原：由西向东依次为秘书室、蒋介石卧室、蒋介石办公室、部署进攻红军的会议室、侍从室主任钱大钧办公室，室内陈设桌椅、床铺、沙发、电话、茶具、地毯、火炉一应俱全，仿佛时光凝固在那个冬夜。最震撼的是墙面与玻璃窗上清晰可辨的弹孔——那些弹痕是东北军士兵扫射时留下的真实印记，被刻意保留至今，无声地诉说着"双十二"那场改变中国命运的枪声。',
+          },
+        ],
+      },
+      {
+        name: '骊山蒋介石办公处',
+        nameEn: 'Chiang Kai-shek’s Office at Lishan',
+        rating: 4.7,
+        type: '历史古迹',
+        tagline: '五间厅办公室 · 西安事变行辕',
+        price: '含华清宫门票（120元）',
+        duration: '1小时',
+        description: '华清宫五间厅内的蒋介石办公室与卧室，是1936年西安事变时蒋介石的行辕所在地。办公室、卧室、会议室、秘书室按1936年原貌复原陈列，桌椅、电话、沙发、火炉一应俱全，是了解西安事变最直观的历史现场。',
+        tips: '与枪弹墙同在五间厅内，可一并参观；办公室为五间厅第三间；注意办公桌上的老式电话与台灯；隔壁卧室可见蒋逃跑时的凌乱痕迹；骊山兵谏亭为蒋藏身处，可串联游览。',
+        image: xianJiangOffice,
+        highlights: [
+          '1936年西安事变蒋介石行辕办公地',
+          '五间厅第三间为蒋介石办公室',
+          '按1936年原貌复原陈列，桌椅电话沙发齐全',
+          '隔壁卧室可见事变当夜蒋翻窗逃跑的痕迹',
+          '与兵谏亭、枪弹墙构成西安事变完整史迹链',
+        ],
+        gallery: [
+          {
+            title: '行辕里的历史现场',
+            image: xianJiangOfficeDetail,
+            content: '五间厅由清光绪二十六年（1900年）建造，原为砖木结构单层五开间厅堂，坐南朝北，前廊贯通，建筑面积251平方米。1936年10月与12月，蒋介石两次赴陕"督剿"红军，均以华清池为"行辕"，下榻五间厅。五间厅由西向东依次为：秘书室、蒋介石卧室、蒋介石办公室、部署进攻红军的会议室、侍从室主任钱大钧办公室。蒋介石办公室为第三间，室内中央摆设宽大的写字台，台上放置老式拨号电话、绿色台灯、文房四宝与公文；办公室后墙挂有军事地图，标注着"围剿"红军的部署方案。隔壁卧室陈设简朴，单人床、床头柜、衣帽架，床上被褥凌乱——那是1936年12月12日凌晨4时，蒋介石闻枪声后未来得及更衣，身着睡衣从后窗翻出逃走时留下的痕迹。会议室墙上悬挂着孙中山像与国民党党旗，桌上摊开的文件与茶杯仿佛主人刚刚离去。1986年，五间厅按1936年原貌复原并对外开放，现为全国重点文物保护单位"西安事变旧址"的核心组成部分。置身其间，历史不再是教科书上的文字，而是可触摸的真实——那台不会再响起的电话、那扇被翻越的后窗、那面布满弹孔的墙，共同凝固了中国现代史最关键的转折时刻。',
+          },
+        ],
+      },
+      {
+        name: '慈禧行宫',
+        nameEn: 'Empress Dowager Cixi Temporary Palace',
+        rating: 4.4,
+        type: '历史古迹',
+        tagline: '庚子西狩 · 慈禧太后避难行宫',
+        price: '含华清宫门票（120元）',
+        duration: '1小时',
+        description: '华清宫五间厅及三间厅（桐荫轩）建于清光绪二十六年（1900年），是八国联军侵华时慈禧太后携光绪帝西逃避难（史称"庚子西狩"）的行宫驻地。慈禧在西安驻跸约10个月，期间在此处理政务，是晚清屈辱史与华清宫近代史的见证。',
+        tips: '五间厅与三间厅同在环园内，可一并参观；三间厅现辟为"蒋介石在华清池"展览厅；注意建筑为清末砖木结构；结合慈禧太后在西安北院门行宫的历史一并了解更完整。',
+        image: xianCixiPalace,
+        highlights: [
+          '1900年八国联军侵华，慈禧太后西逃驻跸地',
+          '史称"庚子西狩"，慈禧在西安驻跸约10个月',
+          '五间厅与三间厅（桐荫轩）均建于光绪二十六年',
+          '慈禧在西安期间授权签订《辛丑条约》',
+          '加速了清末新政与清朝灭亡',
+        ],
+        gallery: [
+          {
+            title: '庚子西狩的晚清行宫',
+            image: xianCixiPalaceDetail,
+            content: '清光绪二十六年（1900年）八月十四日，八国联军攻入北京。次日黎明，慈禧太后携光绪帝仓皇出逃，换着粗布衣衫、梳汉人发髻，一路风餐露宿，据说三天未进食、嚼高粱秆解渴，狼狈不堪地经太原逃往西安，美其名曰"庚子西狩"。在西安期间，慈禧以陕西巡抚衙门北院门（今回民街一带）为正式行宫，处理朝政；途经临潼时则驻跸于专为她在华清池新建的五间厅与三间厅（桐荫轩）。五间厅与三间厅均建于光绪二十六年，砖木结构，前廊贯通，朴素典雅而不失皇家规制。慈禧在西安驻跸约10个月（1900年秋至1901年八月二十四日回銮），期间授权奕劻、李鸿章与十一国谈判，于1901年九月签订《辛丑条约》，赔款4.5亿两白银（即"庚子赔款"），并惩办主战派大臣。这次西逃的屈辱经历，让慈禧深刻感受到清朝的落后与危机，回銮后即启动"清末新政"——废科举（1905）、练新军、设新部、预备立宪，试图挽救摇摇欲坠的王朝，然而为时已晚，十年后辛亥革命爆发，清朝覆亡。今日的五间厅与三间厅，既见证了1900年慈禧的仓皇西逃，也见证了1936年蒋介石的被扣留，一座建筑承载了晚清至民国36年间中国最剧烈的两场命运转折，堪称"近代史的活化石"。',
           },
         ],
       },
@@ -551,7 +919,7 @@ export const cities = [
         gallery: [
           {
             title: '千岛碧水画中游',
-            image: qiandaoLake,
+            image: hangzhouQiandaoDetail,
             content: '千岛湖位于杭州淳安县，是1959年为建新安江水电站而蓄水形成的人工湖。湖面面积573平方公里，相当于108个西湖大小，蓄水量是西湖的3000多倍。湖内大小岛屿1078个，星罗棋布于碧波之上，故称"千岛湖"。这里水质极佳，能见度最高可达9米，常年保持I类水质标准，是农夫山泉的源头之一。从中心湖区旅游码头登船，游轮劈波斩浪驶入湖区，两岸青山如黛、碧水如镜。梅峰岛是千岛湖的标志性观景点，乘缆车或徒步登顶，俯瞰群岛星布、碧水环绕，"不上梅峰观群岛，不识千岛真面目"。龙山岛上有海瑞祠，纪念明代清官海瑞；月光岛由多个小岛以浮桥相连，是情侣打卡胜地。傍晚归航，夕阳洒在湖面上，渔舟唱晚，如入画中。',
           },
         ],
@@ -577,7 +945,7 @@ export const cities = [
         gallery: [
           {
             title: '伯爵号上的千岛画卷',
-            image: bojueCruise,
+            image: hangzhouBojueDetail,
             content: '千岛湖伯爵号是湖区最具人气的豪华游轮之一，船体仿欧式伯爵号风格，三层结构雄伟典雅，白色船身在碧水青山间格外醒目。从中心湖区码头登船，一楼是封闭式观景大厅，落地玻璃窗将湖光山色尽收眼底；二楼是露天甲板与咖啡座，是观景拍照的最佳位置，微风拂面，群岛从两侧缓缓掠过；三楼为vip包厢区。伯爵号航线通常串联梅峰岛、龙山岛、月光岛等核心景点，全程约3-4小时。船行至湖心，四面群山环抱、岛屿星布，水天一色，令人心旷神怡。傍晚返航时，夕阳将湖面染成金红，伯爵号剪影与千岛暮色构成一幅绝美的江南山水画。',
           },
         ],
@@ -604,7 +972,7 @@ export const cities = [
         gallery: [
           {
             title: '潇洒桐庐·大奇山居图',
-            image: tongluMountain,
+            image: hangzhouTongluDetail,
             content: '桐庐，杭州下辖县，自古有"中国最美县城"之誉，北宋范仲淹贬谪于此，写下《潇洒桐庐郡十咏》，赞其"潇洒桐庐郡，开轩即解颜"。大奇山国家森林公园位于桐庐城南，是桐庐山水的精华所在。园内占地约700公顷，海拔最高的猴峰约625米。入园后沿林间栈道前行，两侧毛竹林遮天蔽日，空气负氧离子含量极高，被誉为"天然氧吧"。沿途可见龙潭瀑布、石屋、铁索桥、石林等景观，瀑布飞珠溅玉，石林嶙峋奇峻。登顶远眺，富春江蜿蜒如带穿过桐庐城区，远山如黛、近水含烟，正是黄公望《富春山居图》的实景写照。桐庐还有瑶琳仙境——华东地区著名的喀斯特溶洞，洞内钟乳石千姿百态，灯光下流光溢彩；严子陵钓台则是东汉高士严子陵隐居垂钓之所，富春江畔的隐逸文化圣地。一日之内，山、水、洞、台皆可尽览，难怪范仲淹连咏十首"潇洒桐庐"。',
           },
         ],
@@ -696,7 +1064,7 @@ export const cities = [
         gallery: [
           {
             title: '巍巍钟山，民国丰碑',
-            image: zhongshanling,
+            image: nanjingZhongshanDetail,
             content: '中山陵由著名建筑师吕彦直设计，1926年春动工，1929年夏建成。整个陵寝平面呈"警钟"形，象征"唤起民众"。从博爱坊、墓道、陵门、碑亭到祭堂，依南北中轴线排列于紫金山南坡，由南往北逐级升高。392级台阶全部用花岗石砌成，从下仰望只见台阶不见平台，登至祭堂回望则只见平台不见台阶，设计巧夺天工。祭堂内供奉孙中山先生大理石坐像，四壁刻有《建国大纲》全文。站在祭堂前平台远眺，钟山林海苍翠、南京城尽收眼底，"天下为公"的胸襟与山河同在。',
           },
         ],
@@ -721,7 +1089,7 @@ export const cities = [
         gallery: [
           {
             title: '神道石像，秋日银杏',
-            image: mingxiaoling,
+            image: nanjingMingxiaoDetail,
             content: '明孝陵始建于1381年，是朱元璋与马皇后的合葬陵，也是北京明十三陵的蓝本。神道（孝陵神道）全长约1.8公里，蜿蜒曲折，不同于历代帝陵笔直中轴的规制，据说因循山势、顺乎自然。两侧依次排列狮、獬豸、骆驼、象、麒麟、马6种石兽共12对，后接2对武将、2对文臣，形态威严、雕工精湛。每逢深秋，神道两侧银杏金黄、枫叶似火，石像静立千百年，光影斑驳间被誉为"南京最美六百年"。',
           },
         ],
@@ -749,7 +1117,7 @@ export const cities = [
         gallery: [
           {
             title: '桨声灯影里的秦淮河',
-            image: fuzimiao,
+            image: nanjingFuzimiaoDetail,
             content: '夫子庙秦淮风光带以夫子庙为核心，横跨秦淮河两岸。白天可逛江南贡院（中国科举博物馆）、乌衣巷、王导谢安纪念馆，触摸六朝与明清文脉。入夜后才是它最迷人的时刻——两岸古建筑群红灯笼高悬，画舫在秦淮河上缓缓穿行，"烟笼寒水月笼沙，夜泊秦淮近酒家"的诗意扑面而来。坐上画舫，听船娘一曲江南小调，看岸边灯影流转，便懂了朱自清笔下"桨声灯影里的秦淮河"。岸上小吃云集，鸭血粉丝汤、桂花糖芋苗、秦淮八绝，是金陵夜最暖的人间烟火。',
           },
           {
@@ -818,7 +1186,7 @@ export const cities = [
         gallery: [
           {
             title: '云端之上的天空之城',
-            image: yunshangcaoyuan,
+            image: anjiYunshangDetail,
             content: '云上草原位于安吉山川乡，占地约5000亩，主峰海拔1168米。乘坐全长2.3公里的高山客运索道，十几分钟便从山脚穿越云层直达山顶。一出索道站，眼前豁然开朗——绵延起伏的高山草甸铺展至天际，牛羊悠闲漫步，云雾在脚下翻涌流转。胆大的游客可挑战悬崖秋千、玻璃观景台、步步惊心等高空项目，脚下便是数百米深渊，肾上腺素飙升；也可体验滑翔伞，像鸟儿一样俯瞰安吉的万亩竹海。若逢清晨，云海日出染红天际，运气好还能看见壮观的云瀑倾泻而下，堪称华东最震撼的高山奇观。',
           },
         ],
@@ -844,7 +1212,7 @@ export const cities = [
         gallery: [
           {
             title: '万竹世界，翠竹成林',
-            image: zhuboyuan,
+            image: anjiZhuboyuanDetail,
             content: '安吉竹博园占地1200亩，是世界上散生竹种和丛生竹种收集最为齐全的竹类植物园。漫步园中，376个竹种分区栽植——有竿身方形的方竹、黑紫色的紫竹、竿壁金黄的金镶玉竹、节间膨如佛肚的佛肚竹，形态各异、蔚为大观。园内的中国竹子博物馆陈列着从新石器时代至今的竹器文物与竹文化史料，讲述着"宁可食无肉，不可居无竹"的千年情缘。竹博园还住着两只国宝大熊猫"珍好""珍爱"，憨态可掬地啃食安吉鲜竹，是孩子们最爱的打卡点。穿行翠竹夹道的石板小径，听竹叶沙沙、闻竹香清幽，都市的喧嚣瞬间被这片绿色涤荡一空。',
           },
         ],
@@ -869,7 +1237,7 @@ export const cities = [
         gallery: [
           {
             title: '卧虎藏龙的万亩竹海',
-            image: dazhuhai,
+            image: anjiDazhuhaiDetail,
             content: '中国大竹海地处安吉天荒坪，拥有66000亩浩瀚毛竹林，因李安导演电影《卧虎藏龙》中周润发与章子怡竹林巅峰对决的经典场面而闻名世界。走进竹海，参天毛竹直插云霄，竿竿青翠、密密匝匝，阳光只能从竹叶缝隙间漏下斑驳光影。山风拂过，万顷竹浪此起彼伏，发出沙沙巨响，如海潮涌动。登上山顶的观竹楼，眼前是无边无际的绿色竹海，山峦起伏间竹波翻涌，"竹海"二字在此刻有了最直观的注解。景区新建的玻璃天桥横跨两山之间，脚下便是万丈竹海，行走其上，惊心动魄又美不胜收。',
           },
         ],
@@ -933,7 +1301,7 @@ export const cities = [
         gallery: [
           {
             title: '海崖绝壁上的最美海岸线',
-            image: daqingshan,
+            image: zhoushanDaqingshanDetail,
             content: '大青山位于朱家尖岛最南端，海拔378.6米，是朱家尖的最高峰。景区三面环海，拥有里沙、千沙、青沙、箬漕等多个原生态海湾，沙质金黄细腻、海水湛蓝清澈。沿海盘山公路依悬崖而建，蜿蜒曲折，一侧是苍翠青山，一侧是万顷碧波，行驶其间如穿行画中。登上大青山顶，星罗棋布的岛礁、远处的东海渔船与蓝天碧海尽收眼底。傍晚时分，夕阳将海面染成金红色，悬崖上的盘山公路被镀上一层暖光，被无数旅行者誉为"舟山最美日落"。',
           },
         ],
@@ -959,7 +1327,7 @@ export const cities = [
         gallery: [
           {
             title: '海天佛国的千年梵音',
-            image: putuoshan,
+            image: zhoushanPutuoDetail,
             content: '普陀山是舟山群岛1390个岛屿中的一个小岛，面积仅12.5平方公里，却因观音信仰而名扬天下。相传唐大中年间，日本僧人慧锷从五台山请观音像东渡，途经普陀山遇风浪受阻，遂留下建"不肯去观音院"，开普陀山观音道场之始。岛上现存普济、法雨、慧济三大寺及数十座庵院，香火鼎盛。高33米的南海观音铜像面朝大海、慈眉善目，是普陀山的标志。漫步岛上，海风送来檀香，梵音与涛声交织，无论信仰与否，这片海天之间的清净之地都让人心生安宁。',
           },
         ],
@@ -984,8 +1352,60 @@ export const cities = [
         gallery: [
           {
             title: '十里金沙与沙雕艺术',
-            image: shijiantan,
+            image: zhoushanShijianDetail,
             content: '朱家尖的沙滩以"十里金沙"闻名，南沙、东沙、千沙、里沙、青沙五大沙滩首尾相连，绵延5公里余，沙粒细腻如粉、色泽金黄。其中南沙是国际沙雕节的举办地，每年金秋时节，来自世界各地的沙雕艺术家聚此创作，一座座宏伟的沙雕作品矗立海滩，有人物、城堡、神话场景，令人叹为观止。夏日里，东沙、南沙海滨浴场开放，游客可踏浪嬉水、体验摩托艇与海上拖伞。傍晚退潮，踩着柔软金沙漫步海岸线，看夕阳坠入东海，是朱家尖最惬意的时光。',
+          },
+        ],
+      },
+      {
+        name: '印象普陀',
+        nameEn: 'Impression Putuo',
+        rating: 4.7,
+        type: '演艺演出',
+        tagline: '张艺谋执导 · 360度旋转实景演出',
+        price: '238-888元（普通/贵宾/尊贵席）',
+        duration: '70分钟',
+        description: '《印象普陀》是张艺谋、王潮歌、樊跃"印象铁三角"联合执导的大型实景演出，2010年12月31日跨年首演。演出以普陀山观音文化与海洋民俗为主题，400余位当地渔民农民参演，360度旋转观众席与千丈崖观音壁画相映，是舟山夜游必看的文化盛宴。',
+        tips: '演出每晚19:30开始（夏季稍晚）；建议提前网上购票享折扣；可选贵宾席视角更佳；演出在朱家尖白山景区，距大青山、十里金沙约15分钟车程，可与白天景点同日安排。',
+        image: zhoushanImpressionPutuo,
+        highlights: [
+          '张艺谋、王潮歌、樊跃"印象铁三角"联合执导',
+          '2010年跨年首演，印象系列第六部',
+          '360度旋转观众席，"行走的舞台运动的山水"',
+          '400余位本地渔民农民参演，原生态呈现',
+          '70分钟演出，以观音文化、海洋民俗为主题',
+        ],
+        gallery: [
+          {
+            title: '千丈崖下的观音文化实景盛宴',
+            image: zhoushanImpressionPutuoDetail,
+            content: '《印象普陀》大剧场坐落于朱家尖白山景区，由原观音文化苑改建而成，占地3000余平方米，可容纳2000余名观众。剧场以114.9米高的千丈崖为天然背景，崖壁上绘有高69米、面积2000㎡的观音壁画，被誉为"海上莫高窟"。演出最大的亮点是360度旋转观众席——观众无需移动，座位区缓缓旋转，舞台场景随之变换，配合8块可移动挡片屏与实景动漫技术，将有限的剧场空间拓展为无限视觉场域，被称作"行走的舞台、运动的山水"。演出以观音文化、佛教哲理与舟山海洋民俗为内核，借"大爱、善意、美德、自悟"四个主题，讲述人与海、人与信仰、人与内心的故事。400余位演员均为朱家尖本地渔民、农民经培训上岗，他们的质朴与本真为演出增添了原生态的感染力。主题曲由齐豫、罗大佑、常石磊演唱，空灵嗓音与海风、梵音交融，令人动容。70分钟的演出，是一场视觉盛宴，更是一次心灵的温柔洗礼——正如导演所言"借佛教话题，说当下人对生活的看法"。',
+          },
+        ],
+      },
+      {
+        name: '嵊泗列岛',
+        nameEn: 'Shengsi Islands',
+        rating: 4.8,
+        type: '自然风光',
+        tagline: '海上仙山 · 国家级列岛风景区',
+        price: '免费（部分景区收费）',
+        duration: '两天至三天',
+        description: '嵊泗列岛位于舟山群岛最北部，由404个岛屿组成，是国务院1988年公布的国家级列岛风景名胜区，素有"海上仙山""南方北戴河"之美誉。基湖沙滩、南长涂沙滩金沙绵延，东崖绝壁、六井潭日出壮观，是东海最纯净的海岛度假胜地。',
+        tips: '从上海芦潮港或小洋山沈家湾客运中心乘船前往泗礁山主岛；建议住2-3晚深度游；夏季可下海游泳；六井潭看日出、东崖绝壁看海蚀地貌必去；提前订船票与民宿，旺季一房难求。',
+        image: zhoushanShengsi,
+        highlights: [
+          '国家级列岛风景名胜区，404个岛屿星罗棋布',
+          '基湖沙滩为长三角首席海滨浴场',
+          '东崖绝壁为嵊山岛最壮观海蚀崖',
+          '六井潭是泗礁山看东海日出最佳点',
+          '花鸟灯塔为1870年英国建造的国家级文物',
+        ],
+        gallery: [
+          {
+            title: '东海深处的纯净列岛',
+            image: zhoushanShengsiDetail,
+            content: '嵊泗列岛位于舟山群岛最北部、长江口与杭州湾交汇处，由404个大小岛屿组成，陆地面积仅86平方公里，海域面积却达8824平方公里，"一分岛礁九九海"。主岛泗礁山面积21.2平方公里，是游客主要活动区域。基湖沙滩与南长涂沙滩是泗礁山最著名的两大沙滩，沙质金黄细腻、海水湛蓝清澈，其中基湖沙滩被誉为"长三角首席海滨浴场"，夏日里游客如织、踏浪嬉水。嵊山岛的东崖绝壁是最壮观的海蚀崖景观，崖壁直插东海，浪涛拍岸、气势磅礴；六井潭位于泗礁山东端，是观赏东海日出的最佳地点，清晨立于礁石之上，看一轮红日跃出洋面，霞光染红万顷碧波，被誉为"东海第一缕阳光"。花鸟岛的花鸟灯塔由英国人于1870年建造，是国家级文物保护单位，至今仍在为过往船只导航。枸杞岛的"山海奇观"石刻为明万历十八年（1590年）抗倭名将侯继高所题，记录了400多年前东海海防历史。嵊泗也是中国海钓胜地，海域内有游泳生物302种、鱼类210种，被誉为"东海鱼仓"。从上海芦潮港或小洋山沈家湾客运中心乘船约1-2小时可达泗礁山，是上海、杭州周边最纯净的海岛度假目的地。',
           },
         ],
       },
@@ -1048,7 +1468,7 @@ export const cities = [
         gallery: [
           {
             title: '郑氏十七房的历史文化背景',
-            image: ningboHero,
+            image: ningboShiqifangDetail,
             content: '郑氏十七房位于宁波市镇海区澥浦镇，是郑氏一支自南宋由河南荥阳南迁后的世居之地，距今已有800余年。它是国内现存规模最大、保存最完整的明清古建筑群落之一，建筑面积4万多平方米，现存建筑绝大部分为清乾隆至光绪年间所建。郑氏家族世代经商，是"宁波帮"的重要发源之一，英雄墨水厂的肇始者郑尊发便出自此族。宅院群呈"宅中有街、街中有市"的独特格局，马头墙高耸、雕梁画栋，典当行、邮政代办所、酒作坊、栈房、恒德房、恒祥房、源茂房等一应俱全，是一座凝固的明清商帮"活化石"。',
           },
           {
@@ -1083,7 +1503,7 @@ export const cities = [
         gallery: [
           {
             title: '爬山看海防工事',
-            image: zhaobaoshan,
+            image: ningboZhaobaoDetail,
             content: '沿石阶缓步而上，山道两旁绿树成荫，约半小时即可登顶。山顶的威远城为明代抗倭所筑，安远炮台、月城与多尊古炮诉说着镇海口"百战不殆"的海防史。登临鳌柱塔或城墙，甬江入海口、远洋轮船与对岸金鸡山尽收眼底，海风猎猎，"爬山看海防"的独特体验在此一站集齐。',
           },
         ],
@@ -1108,7 +1528,7 @@ export const cities = [
         gallery: [
           {
             title: '古县城里吃年糕',
-            image: cichengImg,
+            image: ningboCichengDetail,
             content: '慈城年糕以优质粳米水磨而成，口感软糯弹滑，曾登上央视《舌尖上的中国》而名扬全国。古县城街巷间遍布年糕作坊与小吃店，可现买现尝年糕饺、炒年糕、雪菜年糕汤。吃饱后漫步县衙、孔庙与校士馆，在青砖黛瓦间感受一座千年古县城的市井烟火与科举文脉。',
           },
         ],
@@ -1186,7 +1606,7 @@ export const cities = [
         gallery: [
           {
             title: '山海之间的道教仙山',
-            image: laoshan,
+            image: qingdaoLaoshanDetail,
             content: '崂山位于青岛东部黄海之滨，主峰巨峰海拔1133米，是中国18000公里海岸线上最高的山峰，自古有"海上名山第一"美誉。崂山以山海奇观、道教文化与奇岩异石并称三绝。南线太清游览区是最经典的路线，沿八水河上行，经龙潭瀑、上清宫，至太清宫——这座始建于西汉的千年道观，是道教全真派天下第二丛林，蒲松龄曾在此居住写《聊斋志异》，院中500年耐冬"绛雪"与白牡丹"香玉"便是书中花仙原型。乘索道登巨峰，可环走"八卦门"环形线路，巽门、离门、坤门依次排布，花岗岩奇峰如自然碑、灵旗峰耸立云端，脚下碧海万顷、远处青岛城若隐若现，"泰山虽云高，不如东海崂"诚不我欺。',
           },
         ],
@@ -1213,7 +1633,7 @@ export const cities = [
         gallery: [
           {
             title: '登上功勋战舰，触摸大国海军',
-            image: navyMuseum,
+            image: qingdaoNavyDetail,
             content: '海军博物馆始建于1988年，1989年10月1日正式开放，是国庆献礼工程。选址堪称"黄金C位"——莱阳路八号，东邻鲁迅公园，西接小青岛，南靠大海，北望信号山。最震撼的是4万平方米海上舰艇展区，6个泊位停满"明星战舰"：鞍山舰（舷号101）是新中国第一艘驱逐舰、海军"四大金刚"之首，1954年从苏联引进，服役38年，周总理曾亲自登舰检阅；济南舰是第一艘国产驱逐舰；长征1号艇是中国第一艘核潜艇，可入舱感受"深海利剑"的神秘。陆上展区陈列两栖突击车、水陆坦克、T-34坦克等，航空展区有伊尔-14飞机、超黄蜂直升机。室内主展馆按"扬帆启航""乘风破浪""挺进深蓝"三阶段划分，4000余件文物中，解放一江山岛战旗依旧鲜红，英烈厅里数千名海军先烈的名字熠熠生辉，一路走来，仿佛亲历了人民海军从小炮艇到航母编队的壮阔征程。',
           },
         ],
@@ -1239,7 +1659,7 @@ export const cities = [
         gallery: [
           {
             title: '灯影流转，青岛之夏',
-            image: zhongshanLights,
+            image: qingdaoZhongshanDetail,
             content: '中山公园是青岛最大的城区公园，每年樱花季游人如织，而夏季灯展则是一代青岛人共同的童年记忆。停办多年后，灯会于近年焕新归来，特邀"中国灯城"四川自贡的匠人精心制作——自贡灯会已在国内500多个城市、国外40多个国家和地区展出，累计观灯超3亿人次。此次灯展突破传统，融合投影与交互技术、呼吸式变光装置及柔性LED触须交互技术，打造出青岛专属的沉浸式夜游空间。从北至动物园、南至雪松路、西至太平山绿道、东至樱花大道，大型龙形花灯、荷花灯组、牡丹灯组错落分布，五彩灯光与园内百年雪松、樱花树交相辉映。傍晚入园，看天光渐暗、万灯齐明，漫步樱花大道红灯笼长廊，仿佛回到小时候牵着父母手逛灯会的温暖时光——这便是青岛夏天最"耀眼"的浪漫。',
           },
         ],
@@ -1307,7 +1727,7 @@ export const cities = [
         gallery: [
           {
             title: '包孕吴越的太湖之美',
-            image: taihu,
+            image: suzhouTaihuDetail,
             content: '太湖古称震泽、具区，面积2338平方公里，是中国第三大淡水湖，素有"包孕吴越"之称。苏州段以太湖大桥为纽带，连接市区与洞庭西山岛。大桥全长4308米，三段造型各异——一号桥修长、二号桥最高、三号桥贴水最精美，车行桥上如履水面。西山岛是太湖最大岛屿，面积79平方公里，岛上缥缈峰海拔336.6米，为洞庭山七十二峰之冠，登顶可俯瞰湖中诸岛、群峦坞谷。岛上游览推荐顺时针环岛：先到林屋洞（石灰岩溶洞，冬暖夏凉，2月梅海满山），再至石公山（三面环水，3-4月樱花烂漫），下午到明月湾古村（千年古码头，傍晚17:30后免费入园，是《何以笙箫默》取景地），最后到静山夕阳观景台看太湖最美日落——礁石上坐满了等日落的人，金光洒满万顷碧波，天地间一片澄明。沿途碧玉榭、横山岛、湖与Cafe等免费景点各有韵味，一天环岛约40公里，自驾最宜。',
           },
         ],
@@ -1333,7 +1753,7 @@ export const cities = [
         gallery: [
           {
             title: '咫尺之内再造乾坤',
-            image: suzhouGarden,
+            image: suzhouZhuozhengDetail,
             content: '拙政园始建于明正德四年（1509年），因西晋潘岳《闲居赋》"筑室种树，逍遥自得……此亦拙者之为政也"得名。全园面积78亩，是苏州最大的古典园林，以水为中心，水面约占全园三分之一。中园是精华，远香堂面水而立，夏日荷香满堂；堂前曲桥蜿蜒，连接荷风四面亭与香洲（旱船造型）。小飞虹是苏州园林中唯一的廊桥，桥影倒映水中如彩虹飞架。西园的卅六鸳鸯馆、十八曼陀罗花馆精巧绝伦，东园则疏朗自然。文徵明曾在此手植紫藤，至今已有500余年，每年春天紫藤花开如瀑布倾泻，是镇园之宝。漫步园中，一步一景、移步换形，窗框成画、漏窗借景，将"咫尺之内再造乾坤"的造园艺术发挥到极致——这便是江南园林最精雅的范本。',
           },
         ],
@@ -1394,7 +1814,7 @@ export const cities = [
         gallery: [
           {
             title: '北欧圣诞冰雪童话',
-            image: snowWorld,
+            image: snowworldInterior,
             content: '无锡热雪奇迹（原名融创雪世界）位于滨湖区融创文旅城融创茂二层，面积约1.75万平方米，是华东地区标志性的室内滑雪场。整体以"北欧圣诞"为主题，高度还原北欧圣诞老人村的冰雕世界——走进雪场，皑皑白雪铺满大地，冰雕晶莹剔透，飘雪机洒下漫天飞雪，仿佛一秒穿越到北欧童话。雪场设有4条不同难度的雪道：初级"小熊道"长35米、宽20米，坡度仅8%，是零基础新手和小朋友的启蒙之选；中级"麋鹿道"长72米、宽25米，坡度14%，适合单板练习者提升技能；中高级"雪兔道"长138米、宽35米，落差达13米，风驰电掣般的速降让人肾上腺素飙升；还有专为跳台爱好者设计的公园道。5条魔毯轻松上下，18台制冷设备和5台造雪机确保全年恒温约-6℃，无论窗外是35℃酷暑还是数九寒冬，这里永远是银装素裹的冰雪世界。专门的5600㎡娱雪区为低龄儿童打造，包含戏雪区和缓坡，家长可带着孩子在雪地里打滚、堆雪人、坐冰滑梯，尽享亲子冰雪乐趣。雪场还配备专业教练团队，提供零基础课程、青少年竞技队培训、技能专项提升等特色课程，成功举办过"数字冰雪运动会""冬奥倒计时100天暨万人冰雪季启动仪式"等大型赛事活动。官方电话：4008959888。',
           },
         ],
@@ -1416,7 +1836,7 @@ export const cities = [
         gallery: [
           {
             title: '太湖第一名胜的四季风华',
-            image: yuantouzhu,
+            image: yuantouzhuSakura,
             content: '鼋头渚位于无锡市滨湖区鼋渚路1号，因巨石突入太湖、形如神龟昂首而得名，享有"太湖佳绝处，毕竟在鼋头"之美誉。景区三面环水，山水相融，是太湖风景的精华所在。春季是鼋头渚最美的时节——3月中下旬至4月初，长春桥畔、十里芳径、樱华亭周边3万余株樱花次第绽放，染井吉野、关山樱、早樱晚樱接力盛放，粉白花海与碧波太湖相映成趣，夜樱更是灯光映照下如梦似幻，跻身"世界三大赏樱胜地"之列。夏季荷花满塘，秋季层林尽染，冬季则可乘船至太湖仙岛喂红嘴鸥——成千上万只红嘴鸥从西伯利亚飞来越冬，绕着游船盘旋，伸手即可与它们互动，是冬季最温暖的记忆。景区门票90元（含太湖仙岛往返客渡船），学生、60岁以上老人半价，1.4米以下儿童免票。推荐游览路线：充山大门进入→十里芳径→长春桥→樱花谷→乘船至太湖仙岛→三山岛观景→返回。地铁4号线至鼋头渚站，打车约15分钟可达景区。',
           },
         ],
@@ -1438,7 +1858,7 @@ export const cities = [
         gallery: [
           {
             title: '庄严巍峨的灵山胜境',
-            image: lingshan,
+            image: lingshanPalace,
             content: '灵山大佛坐落于无锡市滨湖区马山秦履峰南侧，是集自然山水与佛教文化于一体的国家级旅游景区。88米高的露天青铜释迦牟尼立像矗立于灵山之巅，连同莲花座总高101米，用铜700余吨，是世界上最高的青铜佛像之一。游客可沿216级登云道拾级而上（象征佛教216种烦恼），到达莲台抱佛脚祈福。灵山胜境的核心景点还有灵山梵宫——这座被誉为"东方卢浮宫"的建筑，穹顶高达30米，华塔圣坛、廊厅、塔厅金碧辉煌，大型穹顶壁画《天象图》由敦煌研究院创作团队绘制，辅以东阳木雕、敦煌壁画、扬州漆器、景泰蓝等非遗工艺，是东方佛教艺术的集大成之作。九龙灌浴是灵山的招牌表演——音乐响起，六莲花中金身太子佛像缓缓升起，九龙喷水为之沐浴，全场沐浴在金色水雾中，每日定时表演数场。五印坛城则是藏传佛教艺术的精品，内部坛城沙画色彩斑斓、精妙绝伦。登顶大佛观景平台，可远眺太湖万顷碧波与马山半岛层峦叠翠，天地辽阔，心旷神怡。',
           },
         ],
@@ -1468,7 +1888,7 @@ export const cities = [
         gallery: [
           {
             title: '江南山麓别墅园林的集大成者',
-            image: huishanAncientTown,
+            image: jichangGarden,
             content: '惠山古镇坐落于无锡城西惠山东麓，景区面积3.5平方公里，是国家5A级旅游景区。其历史可追溯至南北朝时期——南朝刘宋司徒右长史湛挺隐居惠山，建造别墅园林"历山草堂"，这便是惠山寺与整个古镇园林文化的源头。明清时期惠山修建了大量祠堂与别墅园林，形成今日古镇格局，区域内保存了唐以来的各级文保单位39处、横跨500年历史的祠堂群108座，是无锡老街坊风貌保存最完好的街区。古镇的核心是寄畅园——初建于明正德十五年（1520年），兵部尚书秦金辟为别墅"凤谷山庄"，后取王羲之"取欢仁智乐，寄畅山水阴"诗意改名"寄畅园"。这座明代古典园林占地约1万平方米，是无锡唯一的明代古典园林，与苏州拙政园、留园、南京瞻园并列为"江南四大名园"。清朝康熙、乾隆两帝在100年间六下江南，分别七次驾临惠山，乾隆评价"江南诸名胜，唯惠山秦园最古"，现存碑刻244方、百年挂牌古树12棵。园内含贞斋、九狮台、八音涧等28景，叠山理水、移步换景，是江南山麓别墅式古典园林的巅峰之作。毗邻寄畅园的惠山寺是无锡现存最古老的佛教寺庙，前身即南朝的"历山草堂"，保留有唐宋经幢、金莲桥、御碑亭、听松石床、古银杏等珍贵古迹。阿炳墓也在此处——《二泉映月》的创作者、民间音乐家华彦钧长眠于惠山东麓，墓前铜像由钱绍武雕塑，状如音乐台。',
           },
         ],
@@ -1495,7 +1915,7 @@ export const cities = [
         gallery: [
           {
             title: '茶圣品定·二泉映月',
-            image: huishanOldStreet,
+            image: erquanDetail,
             content: '天下第二泉位于无锡惠山东麓的缓坡地带，二泉书院与寄畅园西侧，原名漪澜泉，简称"二泉"。唐大历末年（779年），无锡县令敬澄派人开凿此泉。茶圣陆羽品评天下泉水，定"庐山康王泉第一，惠山石泉第二"，"天下第二泉"之名由此传开。泉水富含矿物质，口感甘甜醇厚，唐代写"谁知盘中餐，粒粒皆辛苦"的无锡籍诗人李绅曾赞二泉水为"人间灵液"；宋徽宗更是将二泉水列为宫廷贡品，岁岁进贡。北宋文豪苏东坡多次造访，留下千古名句"独携天上小团月，来试人间第二泉"。二泉泉水随山势自西向东，分上、中、下三池：上池为泉源所在，八边形石栏围护；中池紧邻上池，方池形制；下池面积最大，西池壁正中有一石螭首，泉水从螭口汩汩流出，构成"螭吻飞泉"胜景。至元朝时，二泉确立了以泉井、泉池、泉亭和祠堂构成的中轴对称景观庭院，漪澜堂临泉而建，历代文人多在此品茗赋诗。最令人动容的是，盲人民间音乐家阿炳（华彦钧）常在二泉边抚琴，以泉声为灵感创作了传世名曲《二泉映月》——那如泣如诉的二胡旋律，将二泉的月色与人生的悲凉融为一体，成为20世纪最动人的中国音乐之一。阿炳墓就在惠山东麓，与二泉相伴。',
           },
         ],
@@ -1542,7 +1962,7 @@ export const cities = [
         gallery: [
           {
             title: '央视镜头下的江南灯会夜市',
-            image: huishanSpringFestival,
+            image: huishanLantern,
             content: '每年春节前后，惠山古镇便化身流光溢彩的灯会夜市。绣嶂街、秦园街两旁张灯结彩，大型花灯组沿古街绵延，将粉墙黛瓦的明清古建映照得金碧辉煌。2025年春节前夕，央视国际频道CGTN以"Wuxi\'s Huishan Ancient Town shines in the lead-up to Spring Festival"（无锡惠山古镇春节前熠熠生辉）为题进行专题报道，惠山古镇的春节灯会由此走进全国乃至全球观众的视野。夜市里，惠山泥人"大阿福"的摊位前围满游客，老师傅现场捏塑，一团彩泥在指尖化作憨态可掬的胖娃娃；锡绣艺人飞针走线，竹刻匠人刀法精到，非遗手作市集让千年技艺在灯火中复活。小吃摊飘来阵阵香气——惠山油酥酥脆层层，糖芋头甜糯软绵，刚出笼的无锡小笼包薄皮多汁。沿寺塘泾"龙头河"漫步，花灯倒映水中，两岸祠堂飞檐翘角，仿佛穿越回明清庙会。舞龙舞狮、锡剧折子戏在广场轮番上演，孩子们的笑声与锣鼓声交织。这便是央视镜头下的江南年味——千年的古镇，鲜活的人间烟火，在春节的灯火里熠熠生辉。',
           },
         ],
@@ -1621,7 +2041,7 @@ export const cities = [
         gallery: [
           {
             title: '登泰山而小天下',
-            image: taishan,
+            image: taianTaishanDetail,
             content: '泰山古称岱山，地处山东中部，主峰玉皇顶海拔1545米。泰山形成于25亿年前，传说盘古氏死后头颅化为泰山，故有"天地交泰"之说。自古以来，泰山便是历代帝王封禅告祭的圣地——夏商周三代有72位君主来此，秦以后汉武帝一人就曾7临泰山，唐玄宗御书《纪泰山铭》摩崖石刻被视为"盖自汉以来碑碣之壮丽未有及者"。泰山山势不以玲珑秀丽取悦于世，而以雄浑峻拔令人惊叹，裸露的深棕色岩石和高大的墨绿色松柏，处处给人粗犷豪放而又深沉坚毅的印象。登泰山有四条路线：红门路线是最经典的御道徒步路线，从红门出发，经岱宗坊、万仙楼、斗母宫、经石峪到中天门（约2.5小时），再经云步桥到十八盘——这是泰山最险峻的路段，1633级台阶坡度达70°，两侧绝壁如削，仰望如天梯直插云霄，登上南天门便是"天上的街市"。继续前行至玉皇顶，途中碧霞祠香火鼎盛，日观峰是观日出的最佳位置。全程约7.5公里，台阶6366级，耗时4-6小时。天外村路线可乘景区大巴（35元/单程）直达中天门，再换乘索道（100元/单程）至南天门，适合节省体力的游客。泰山四大奇观——旭日东升、云海玉盘、晚霞夕照、黄河金带，尤以日出最为震撼：清晨5点站上日观峰，东方天际由墨蓝转橙红，一轮红日从云海中喷薄而出，万道金光洒满群山，"登泰山而小天下"的豪情油然而生。山间石刻遍布，从秦代李斯小篆到历代名人题刻共2500余处，是一座露天的书法艺术博物馆。门票115元/人，首次检票后3日内有效，且凭泰山门票可免费游览岱庙。夜爬泰山是独特体验——晚10点从红门出发，约5小时登顶，带上强光手电和暖宝宝，在山顶等待日出，是无数年轻人的朝圣之旅。',
           },
         ],
@@ -1643,7 +2063,7 @@ export const cities = [
         gallery: [
           {
             title: '千年东岳神府的帝王气象',
-            image: daimiao,
+            image: taianDaimiaoDetail,
             content: '岱庙位于泰安市区北部，是泰山最大、最完整的古建筑群，也是历代帝王举行封禅大典和祭祀泰山神的第一站。岱庙始建于汉代，拓建于唐宋，现存建筑多为明清重修，总面积约9.6万平方米，呈皇家宫殿式布局——中轴线上依次为正阳门、配天门、仁安门、天贶殿、后寝宫，两侧对称分布钟鼓楼、汉柏院、东御座等建筑院落，四面筑有高达10米的红色城墙，形制如同一座缩小的皇宫。天贶殿是岱庙的核心与灵魂，建于宋大中祥符二年（1009年），为九开间重檐庑殿顶建筑，面阔48.7米，进深19.79米，高22.3米，与北京故宫太和殿、曲阜孔庙大成殿并称"中国三大宫殿式建筑"。殿内满堂壁画《启跸回銮图》是镇庙之宝——东侧"启跼"绘东岳大帝出巡场景，西侧"回銮"绘凯旋回宫，画面总长62米，高3.3米，共绘660余个人物，山川树木、楼阁亭台、仪仗车马栩栩如生，是泰山地区现存最早、规模最大的壁画，虽经康熙年间重绘，仍保留着极高的艺术价值。庙内古柏森森，300余株古树中最为珍贵的是汉柏院中的5株汉柏，相传为汉武帝元封元年（前110年）亲植，已有2100余年树龄，虽老干虬枝、苍劲斑驳，依然枝叶葱茏，是岱庙最年长的"见证者"。碑碣林立是岱庙另一大特色，庙内存有自秦至清历代碑碣184块，其中秦代李斯小篆《泰山刻石》（残石存10字）是中国现存最早的刻石之一，被列为国家一级文物；唐玄宗李隆基御书《纪泰山铭》摩崖石刻拓片亦藏于此。游览岱庙建议1-2小时，从正阳门进入沿中轴线游览，重点看天贶殿壁画、汉柏院古树和碑刻陈列。岱庙门票20元，凭泰山门票（115元）可免费游览，是登泰山前了解泰山历史文化的最佳"序曲"。',
           },
         ],
@@ -1714,7 +2134,7 @@ export const cities = [
         gallery: [
           {
             title: '色如渥丹，灿若明霞',
-            image: shaoguanHero,
+            image: shaoguanDanxiaDetail,
             content: '丹霞山位于韶关市仁化县境内，总面积292平方公里，是世界"丹霞地貌"的命名地。1928年，中山大学冯景兰教授等在此进行地质调查，首次将这套红色砂砾岩地层命名为"丹霞层"——取自"色如渥丹，灿若明霞"之意，此后全球同类地貌均以"丹霞"为名。丹霞山由680多座顶平、身陡、麓缓的红色砂砾岩石峰、石墙、石柱组成，亿万年地质演化造就了赤壁丹崖的壮丽景观。阳元石景区是必到之处，那座高28米、直径7米的石柱拔地而起，形似男根，被联合国地质专家誉为"世界罕见的自然奇观"。阴元石则藏于翔龙湖深谷之中，高10.3米，形似女阴，与阳元石一阴一阳遥相呼应，令人叹服于造化的神奇。长老峰是观日出的最佳位置，凌晨4:30登顶，看红日从云海中喷薄而出，赤色群峰在晨曦中如火焰般燃烧。锦江如一条碧绿丝带穿行于丹崖之间，乘竹筏或游船漂流，两岸赤壁倒映水中，正是"水上丹霞"的绝美画卷。',
           },
         ],
@@ -1741,7 +2161,7 @@ export const cities = [
         gallery: [
           {
             title: '曹溪一脉，禅宗祖庭',
-            image: nanhuaTemple,
+            image: shaoguanNanhuaDetail,
             content: '南华寺坐落于韶关市曲江区曹溪之畔，故又称"曹溪南华寺"。南朝梁武帝天监元年（公元502年），天竺高僧智药三藏途经此地，掬曹溪水饮之，叹其甘美，遂预言"170年后有肉身菩萨于此弘法度人"，梁武帝遂敕建宝林寺，此即南华寺之始。170年后的唐仪凤二年（677年），禅宗六祖慧能果然来到此地，在此弘法36载，开创"南宗顿教"，提出"菩提本无树，明镜亦非台，本来无一物，何处惹尘埃"的顿悟思想，中国佛教禅宗由此一花五叶，传播至日本、韩国、越南乃至欧美。寺内中轴线上依次为曹溪门、宝林门、天王殿、大雄宝殿、灵照塔，沿山势层层递进，古木参天，禅意幽远。灵照塔后的六祖殿内，供奉着六祖慧能真身像——历经1300余年而不腐，结跏趺坐，法相庄严，是寺内最珍贵的国家级文物。寺中还珍藏武则天御赐的千佛袈裟与圣旨、北宋木雕罗汉等稀世珍宝。漫步曹溪畔，听晨钟暮鼓，千年禅风扑面而来。',
           },
         ],
@@ -1827,7 +2247,7 @@ export const cities = [
         gallery: [
           {
             title: '一天游遍全球的微缩世界',
-            image: windowOfWorld,
+            image: shenzhenWindowDetail,
             content: '世界之窗坐落于深圳华侨城，1994年6月18日开园，占地48万平方米，是深圳最具标志性的主题公园。整个园区按世界地域分布划分为亚洲区、大洋洲区、欧洲区、非洲区、美洲区与世界广场、国际街六大区域，将130多处世界著名景观以1:1、1:5、1:15等不同比例微缩重现。从108米高的巴黎埃菲尔铁塔（原型的1/3）到埃及金字塔与狮身人面像，从印度泰姬陵到意大利比萨斜塔，从美国大峡谷到澳大利亚悉尼歌剧院，世界各地的建筑精华汇聚于此，部分景观如圣彼得大教堂、巴黎圣母院还可入内参观。世界广场中央的108米埃菲尔铁塔是世界之窗的地标，可乘电梯登塔俯瞰全园全景。每晚的凯旋门灯光秀与环球舞台的大型水秀"千古风流"是压轴节目，声光电交织，将世界文明史诗演绎得淋漓尽致。漫步园中，从巴黎到开罗，从罗马到京都，半日之内环游世界，这正是世界之窗的奇妙魅力。',
           },
         ],
@@ -1854,7 +2274,7 @@ export const cities = [
         gallery: [
           {
             title: '山海之间的双主题奇境',
-            image: octShenzhen,
+            image: shenzhenOctDetail,
             content: '东部华侨城坐落于深圳大梅沙海滨与梧桐山之间，占地近9平方公里，是国内首个大型综合性国家生态旅游示范区，由国家旅游局和国家环保总局联合授牌。整个度假区依山傍海，森林覆盖率超过70%，负氧离子含量极高，是深圳的"城市绿肺"。园区分为两大主题区：大侠谷生态乐园以"森林+阳光+水"为主题，是国内首个冒险主题乐园，木质过山车全长930米、最高时速97公里，是镇园之宝；激流勇进从26米高空俯冲入水，峡湾漂流穿越热带雨林，惊险刺激。茶溪谷度假公园则以"茶文化+湿地+欧洲小镇"为主题，茵特拉根小镇完全仿造瑞士因特拉肯建造，彩色木屋、花钟、湖泊构成一幅阿尔卑斯风情画；茶翁古镇有茶园、茶艺表演，可品正宗功夫茶；湿地花园占地约3万平方米，四季花海与水鸟栖息。两谷之间有森林小火车与缆车相连，山海风光尽收眼底。',
           },
         ],
@@ -1940,7 +2360,7 @@ export const cities = [
         gallery: [
           {
             title: '一柱擎天的丹霞方山仙境',
-            image: fangyanMountain,
+            image: jinhuaFangyanDetail,
             content: '方岩山位于永康市城东25公里处，山高384米，以山岩奇特、风景秀丽而闻名遐迩，素有"人间仙境"之称。山体平地拔起，四面如削，直耸云天，峻险非凡——这便是"一柱擎天"的壮丽写照。远望如城堡方山，故名方岩。整座山体为典型的丹霞地貌，赤壁丹崖在阳光下熠熠生辉，云雾缭绕时宛若仙境。自宋代以来，方岩山游人络绎不绝，是第一批省级风景名胜区，先后被入选国家重点旅游风景名胜区、国家AAAA级旅游风景区、浙江十佳美景乐园。从南麓拾级而上，行至山腰有依山而筑的罗汉洞，相传方岩开山祖师"正德禅师"最初在此修行；洞旁有蛟龙泉，泉水清澄，人称方岩"虎跑泉"。从罗汉洞往上，坡陡如梯，称"百步峻"，峻上建有步云亭。再往上为"飞桥"，是一条在峭壁上凿洞垒石修成的栈道，全长约50米，内傍削壁，外临深涧，异常险峻。盘曲而上约六七转，则见嵯峨巨石豁然中开——这便是天门。登上天门，依栏凭眺，群山起伏、云雾缥缈，令人顿生飘然升天之感。北宋宣和二年（1120年），方腊在睦州青溪（今淳安）起义，起义军迅速席卷两浙，攻占婺州（今金华）等州府，方岩山地区亦受波及。方腊最终在帮源洞被俘，其洞遗址位于今淳安县威坪镇。这段壮烈的历史为方岩山的丹霞绝壁增添了一抹厚重的人文底色，让游客在领略自然奇观的同时，亦能感受两宋之交的风云激荡。',
           },
         ],
@@ -1967,7 +2387,7 @@ export const cities = [
         gallery: [
           {
             title: '嵯峨巨石豁然中开的天然雄关',
-            image: fangyanTianmen,
+            image: jinhuaTianmenDetail,
             content: '天门是方岩山最壮观的景点，也是"一柱擎天"意象的核心所在。自步云亭而上为"飞桥"，是一条在峭壁上凿洞垒石修成的栈道，全长约50米，内傍削壁，外临深涧，异常险峻。沿飞桥盘曲而上，约历六七转，则见嵯峨巨石，豁然中开——两块丹霞巨石如刀劈斧削般从中裂开，形成一道仅容数人的天然关隘。古人在此建阁其上，俗呼"天门"，其势森严雄伟，蔚为壮观。阁中有一楹联曰："天生奇境窥大地，门设雄关瞰山河"，道尽了天门的雄奇气象。天门两侧的巨石巍然耸立，高耸入云，犹如擎天之柱撑起苍穹，"一柱擎天"的壮丽意象在此展现得淋漓尽致。登上天门，依栏凭眺，群山起伏、云雾缥缈，令人顿生飘然升天之感。跨进天门，山势平缓，石径坦荡，两旁商贩云集，人称"天街"，不远即至广慈寺。从飞桥到天门的一段路是方岩山最精华的体验，峭壁、深涧、巨石、关隘层层递进，步步惊心又步步是景，堪称丹霞地貌景观的巅峰之作。',
           },
         ],
@@ -1994,7 +2414,7 @@ export const cities = [
         gallery: [
           {
             title: '千年古刹与北宋名臣的香火圣地',
-            image: fangyanGuangci,
+            image: jinhuaGuangciDetail,
             content: '广慈寺坐落在方岩山天门之后、天街尽头，是方岩山的核心人文景观。据史料记载，广慈寺原名大悲寺，初建于唐大中四年（850年），距今已有1100余年历史。北宋治平二年（1065年）改为广慈寺，建筑宏伟壮丽，分前、中、后三殿，后殿又名"屏凤阁"，可俯瞰方岩全景。寺内最负盛名的是胡公殿，祀北宋兵部侍郎胡则。胡则字子正，永康人，在任期间曾向宋仁宗皇帝奏免衢、婺两州身丁钱，使百姓免受苛税之苦，百姓感其恩德，故立庙纪念，香火颇旺。宋宣和五年（1123年），大兴工本重新修建广慈寺和胡公祠庙，同年胡则正式被宋皇帝封为"佑顺侯"，此后历代加封，香火日盛。值得一提的是，胡则生活的时代早于方腊起义（1120年），他于宋仁宗朝任职，是北宋名臣；而方腊起义发生在北宋末年宣和年间，两者虽同为北宋历史人物，但时代不同。方腊起义军攻占婺州时，方岩山地区亦受波及，但广慈寺在宋宣和五年（1123年）得以重修，恰在方腊起义平定之后，可见战后婺州地区迅速恢复，方岩山香火再续。山顶尚有读书堂、听泉楼、千人坑、金鼓洞、龟雀亭、"眼睛睁"等胜迹，皆与历代文人墨客的游踪题咏相关。',
           },
         ],
@@ -2021,7 +2441,7 @@ export const cities = [
         gallery: [
           {
             title: '五峰环抱中的理学圣地',
-            image: fangyanShoushan,
+            image: jinhuaShoushanDetail,
             content: '寿山位于方岩以北，又名五老峰，为五重奇峰所依偎环抱的深谷。五峰各有其名：东南一峰突兀为鸡鸣峰，再往前一点是覆釜峰，其西峰妩美叫桃花峰，北面一峰上有瀑布直泻称瀑布峰，与之相连的是固厚峰。五峰环抱，形如莲花盛开，峰岩如削，绝壁千丈，气势磅礴。谷底有许多大小不一的石洞，最大的可容千人，依洞傍山筑有各式楼台殿阁，别致奇巧、匠心独具。这里有寿山寺、丽泽祠、三贤堂、学易斋和五峰书院等遗址，是南宋理学的重要传播地。宋代著名学者朱熹、陈亮、吕东莱和明代应石门、程方峰、程松溪等曾在此讲学论道。其中最著名的当属朱熹与永康学派创始人陈亮的"王霸义利之辩"——朱熹主张"存天理灭人欲"，陈亮则主张"义利双行、王霸并用"，这场持续数年的思想论辩是中国哲学史上的重要篇章，而五峰书院正是这一思想碰撞的舞台。朱熹在"重楼"摩崖亲笔丹书的"兜率台"三字，至今依稀可辨，成为寿山最具历史价值的遗迹。从方岩旋回天门而下，过步云亭往右，沿曲折山径一路可见"惊马奔驰""小和尚听经"及神鼓佛钟等各种象形景观，边走边观赏，令人陶醉于丹霞奇石与理学遗风的交融之中。',
           },
         ],
@@ -2050,6 +2470,177 @@ export const cities = [
       { title: '交通', content: '金华站乘高铁可达杭州东（约30分钟）、上海虹桥（约1.5小时）；金华到永康方岩山可乘永康方向大巴或自驾约40分钟；方岩景区入口有停车场；景区内全程步行，需穿舒适运动鞋。' },
       { title: '美食', content: '必吃：金华火腿、永康肉麦饼、金华酥饼、义乌红糖麻花、兰溪鸡子馃。金华火腿以"两头乌"猪腿腌制，色泽火红、香气浓郁；永康肉麦饼外酥里嫩，是方岩山脚特色小吃。' },
       { title: '最佳时间', content: '3-5月春季山花烂漫、云雾最多，方岩"人间仙境"感最强；9-11月秋高气爽，丹霞绝壁色彩最艳；夏季多雷雨，飞桥栈道湿滑需注意安全；冬季游客较少，可静享古寺香火。胡公诞辰农历八月十三有盛大庙会。' },
+    ],
+  },
+  {
+    id: 'jinan',
+    name: '济南',
+    nameEn: 'Jinan',
+    tagline: '泉城甲天下，一城山色半城湖',
+    taglineEn: 'Spring City of China',
+    region: '华东',
+    isFootprint: true,
+    footprintNote: '我的足迹 · 亲身到访',
+    bestSeason: '春秋（4-5月、9-10月），夏季赏荷',
+    avgBudget: '300-700元/天',
+    description: '济南，山东省省会，因境内泉水众多而被誉为"泉城"，素有"四面荷花三面柳，一城山色半城湖"之美誉。趵突泉位居济南七十二名泉之首，被乾隆皇帝御封"天下第一泉"；大明湖碧波荡漾、历下亭古意盎然；千佛山隋代摩崖造像庄严静穆。趵突泉、大明湖、千佛山并称"济南三大名胜"。从泉水叮咚到湖光山色，从千年佛崖到爱尔兰大河之舞的踢踏旋律，这座齐鲁名城以自然奇观与人文底蕴交织出独特魅力。',
+    image: jinanHero,
+    attractions: [
+      {
+        name: '趵突泉',
+        nameEn: 'Baotu Spring',
+        rating: 4.8,
+        type: '自然风光',
+        tagline: '天下第一泉 · 三股水涌若轮',
+        price: '20元',
+        duration: '2-3小时',
+        description: '趵突泉位于济南市历下区，位居济南七十二名泉之首，被乾隆皇帝御封"天下第一泉"。泉池长30米、宽18米，三股泉水从地下石灰岩溶洞喷涌而出，"泉源上奋，水涌若轮"，水温常年18℃。泉畔观澜亭、漱玉泉、李清照纪念堂环列，是泉城济南的标志与灵魂。',
+        tips: '建议上午前往，光线最佳；观澜亭前赏三股水涌出；漱玉泉旁李清照纪念堂必访；秋季菊花展期间最美；泉水温度18℃，冬日可见水汽蒸腾奇观；与大明湖、千佛山串联游览。',
+        image: jinanBaotu,
+        highlights: [
+          '济南七十二名泉之首，乾隆御封"天下第一泉"',
+          '三股泉水喷涌而出，"泉源上奋，水涌若轮"',
+          '水温常年18℃，日涌水量约7万立方米',
+          '泉畔观澜亭为明代建筑，最佳观泉点',
+          '园内漱玉泉旁有李清照纪念堂，"千古第一才女"故居',
+          '国家AAAAA级旅游景区',
+        ],
+        gallery: [
+          {
+            title: '天下第一泉的千年喷涌',
+            image: jinanBaotuDetail,
+            content: '趵突泉位居济南七十二名泉之首，是中国最具代表性的岩溶泉之一。泉池呈长方形，东西长30米、南北宽18米、深2.2米，泉水从地下石灰岩溶洞中喷涌而出，形成三股水柱，最高时水柱可达数十厘米，古人形容为"泉源上奋，水涌若轮"。水温常年保持在18℃左右，隆冬时节泉池水汽蒸腾、如烟如雾，蔚为奇观。趵突泉历史可追溯至商代（距今3500余年），《春秋》桓公十八年（公元前694年）载"公会齐侯于泺"，"泺"即指趵突泉。北魏郦道元《水经注》记"泉源上奋，水涌若轮"；宋代曾巩始名"趵突泉"；清代蒲松龄作《趵突泉赋》。乾隆十三年（1748年），乾隆皇帝南巡至济南，品泉水甘甜，御封"天下第一泉"并留碑刻。泉池北岸的观澜亭为明代建筑，是观赏三股水的最佳位置，亭柱楹联"三尺不消平地雪，四时常吼半空雷"道尽趵突泉的气势。园内漱玉泉旁的李清照纪念堂，是为纪念宋代女词人李清照（号易安居士）而建，李清照相传曾居于漱玉泉畔，其词集名《漱玉集》，纪念堂为典型的宋代风格庭院，是国内规模最大、内容最丰富的李清照纪念地。',
+          },
+        ],
+      },
+      {
+        name: '大明湖',
+        nameEn: 'Daming Lake',
+        rating: 4.7,
+        type: '自然风光',
+        tagline: '四面荷花三面柳 · 一城山色半城湖',
+        price: '免费（超然楼40元）',
+        duration: '2-4小时',
+        description: '大明湖位于济南老城北部，由众多泉水汇聚而成，湖面面积约46公顷，是济南三大名胜之一。湖中历下亭因杜甫"海右此亭古，济南名士多"诗句闻名；湖畔超然楼高51.7米，被誉为"江北第一楼"。夏日荷花满湖、柳丝拂水，"四面荷花三面柳，一城山色半城湖"是对大明湖最生动的写照。',
+        tips: '景区免费开放，建议从西南门入；历下亭需乘船前往；超然楼每日18:00亮灯仪式是网红打卡点；夏日赏荷最佳，秋日"历下秋风"别有意境；铁公祠、稼轩祠值得一看。',
+        image: jinanDaming,
+        highlights: [
+          '济南三大名胜之一，由众多泉水汇聚而成',
+          '湖面约46公顷，平均水深2米',
+          '历下亭因杜甫"海右此亭古，济南名士多"闻名',
+          '超然楼高51.7米，"江北第一楼"，2021年入选中国历史文化名楼',
+          '夏日荷花满湖，"四面荷花三面柳，一城山色半城湖"',
+          '景区2017年起免费开放',
+        ],
+        gallery: [
+          {
+            title: '一城山色半城湖的泉城明珠',
+            image: jinanDamingDetail,
+            content: '大明湖坐落于济南老城北部，是由珍珠泉、濯缨泉等众多泉水汇聚而成的天然湖泊，湖面面积约46公顷，平均水深2米，最深处约4.5米。湖水由泉水补给，常年不竭，"霪雨不涨，久旱不涸"是其最大特色。湖中历下亭位于东南湖心小岛上，岛面积约4160平方米，因杜甫于天宝四年（745年）与李邕相会于此并留下"海右此亭古，济南名士多"的千古名句而闻名，为古"历下秋风"八景之一。湖东岸的超然楼始建于元代，2008年至2010年原址重建，楼高51.7米，共七层，铜瓦飞檐、气势恢宏，被誉为"江北第一楼"，2021年入选"中国历史文化名楼"，每日18:00的亮灯仪式自2023年起成为网红打卡盛事。湖畔铁公祠纪念明代济南守将铁铉，稼轩祠纪念南宋词人辛弃疾。清代刘凤诰的对联"四面荷花三面柳，一城山色半城湖"是对大明湖最经典的写照——夏日荷花铺满湖面，沿岸垂柳依依，远处千佛山倒映湖中，城、山、湖融为一体，令人心旷神怡。大明湖景区自2017年起全面免费开放，是济南市民与游客休闲赏景的首选之地。',
+          },
+        ],
+      },
+      {
+        name: '千佛山',
+        nameEn: 'Thousand Buddha Mountain',
+        rating: 4.6,
+        type: '历史古迹',
+        tagline: '隋代千佛崖 · 舜耕历山圣地',
+        price: '30元（学生15元）',
+        duration: '2-3小时',
+        description: '千佛山位于济南市南部，海拔285米，古称历山，相传舜帝曾在此耕作，故又名"舜耕山"。隋开皇七年（587年），佛教徒依山崖凿窟造像，因佛像众多而得名"千佛山"。山上有兴国禅寺、万佛洞、千佛崖等胜迹，9个洞窟130余尊隋代造像历经1400余年仍清晰可辨，是济南三大名胜之一。',
+        tips: '建议从北门入，沿石阶上山；兴国禅寺为1983年首批全国重点汉传佛教寺院；万佛洞长500米，集中国四大石窟精华；千佛崖隋代造像为最珍贵文物；登顶可俯瞰济南全景；清晨5:00-6:30免费入园。',
+        image: jinanQianfo,
+        highlights: [
+          '济南三大名胜之一，海拔285米',
+          '古称历山，相传舜帝曾在此耕作，又名"舜耕山"',
+          '隋开皇七年（587年）凿窟造像，距今1400余年',
+          '千佛崖9洞130余尊隋代造像，最珍贵文物',
+          '兴国禅寺为1983年首批全国重点汉传佛教寺院',
+          '万佛洞长500米，集莫高、龙门、麦积山、云冈四大石窟精华',
+        ],
+        gallery: [
+          {
+            title: '舜耕历山下的隋代千佛',
+            image: jinanQianfoDetail,
+            content: '千佛山位于济南市南部，海拔285米，古称历山，相传远古圣帝大舜曾在此耕作，故又名"舜耕山"，是济南三大名胜之一（与趵突泉、大明湖齐名）。隋开皇七年（587年），隋文帝为纪念母亲（济南人）而下令依山崖凿窟造像，雕凿佛像千余尊，山因此得名"千佛山"。山上最核心的文物是千佛崖——位于兴国禅寺南侧，9个洞窟中分布着130余尊造像，主要雕凿于隋开皇七年至二十年（587-600年），最古老者已逾1400年，是山东地区规模最大的隋代摩崖造像群。兴国禅寺是千佛山的主寺，原为隋代千佛寺，隋末毁于战火，唐贞观年间（627-649年）重建并改名兴国禅寺，1983年被列为首批142座全国重点汉传佛教寺院之一。寺内有大雄宝殿、观音菩萨殿、弥勒殿等建筑，香火鼎盛。万佛洞建于1992年，位于山北麓，洞长约500米，内有大中小佛像约23000尊，荟萃了敦煌莫高窟、洛阳龙门石窟、天水麦积山石窟、大同云冈石窟四大石窟的精华，被誉为"石窟艺术集锦"。此外山上还有历山院（东庙）、舜祠、龙泉洞、极乐洞、黔娄洞等胜迹。登临山顶，可俯瞰济南全城，远眺黄河如带，是泉城登高望远的最佳去处。',
+          },
+        ],
+      },
+      {
+        name: '济南植物园',
+        nameEn: 'Jinan Botanical Garden',
+        rating: 4.5,
+        type: '自然风光',
+        tagline: '千亩植物王国 · 四季花海',
+        price: '28元',
+        duration: '3-4小时',
+        description: '济南植物园位于章丘区埠村街道，距市区约35公里，占地千余亩，是国家AAAA级旅游景区，2006年9月开园。园内引种植物88科200属533种、约40万株，含10余种珍稀濒危植物，设有牡丹园、樱花园、海棠园、竹园等12个专类园，是济南周边踏青赏花的最佳目的地。',
+        tips: '建议自驾前往，约40分钟车程；春季（4-5月）樱花、牡丹盛开最美；秋季有菊花展；园区较大，建议安排半天至一天；带好防晒与饮水；望云湖、夏香湖畔适合野餐休息。',
+        image: jinanBotanical,
+        highlights: [
+          '国家AAAA级旅游景区，2006年9月开园',
+          '占地千余亩，引种植物533种、约40万株',
+          '含10余种珍稀濒危植物：玉铃花、黄檗、对节白蜡、银杏等',
+          '12个专类园：牡丹园、樱花园、海棠园、竹园、菊园等',
+          '牡丹园8000余株、151个品种，山东规模最大之一',
+          '四季花展：春赏樱花牡丹、夏观紫薇、秋菊展、冬梅',
+        ],
+        gallery: [
+          {
+            title: '四季花海的千亩植物王国',
+            image: jinanBotanicalDetail,
+            content: '济南植物园位于章丘区埠村街道，距济南市区约35公里，占地千余亩，平均海拔159米，是国家AAAA级旅游景区，于2006年9月26日正式开园。园内引种栽培植物88科200属533种、约40万株，其中包括玉铃花、黄檗、对节白蜡、榉树、青檀、银杏、水杉、鹅掌楸、杜仲等10余种国家重点保护珍稀濒危植物。全园设有12个专类园：木兰园、樱花园、海棠园、蔷薇园、紫薇石榴园、牡丹园、木犀园、菊园、竹园、松柏银杏园、彩色植物区、药用芳香园。其中牡丹园最为著名，占地广阔，种植牡丹151个品种、芍药63个品种、共计8000余株，是山东地区规模最大的牡丹观赏地之一。竹园收集16个竹种、约28000株，翠竹成林、清幽雅致。园内还建有科普馆、盲人植物园、童乐园、婚庆园等功能区，以及望云湖、云影湖和春华湖、夏香湖、秋实湖、冬韵湖四座季相湖，湖光花影相映成趣。春季（4-5月）樱花、玉兰、牡丹次第盛开，是最佳赏花季；秋季举办大型菊花展，展出约1000个菊花品种，"秋色宜人"。植物园是济南周边亲子踏青、植物科普、摄影采风的理想目的地。',
+          },
+        ],
+      },
+      {
+        name: '济南历山剧院·大河之舞',
+        nameEn: 'Lishan Theater & Riverdance',
+        rating: 4.7,
+        type: '演艺演出',
+        tagline: '历山剧院 · 爱尔兰踢踏舞巅峰之作',
+        price: '180-880元（视座位与场次）',
+        duration: '2小时',
+        description: '济南历山剧院位于历山路112号，始建于1978年、1989年落成开业，占地1.3万平方米，是山东省文化厅直属的大型剧院，主厅设1086座。剧院曾引进爱尔兰踢踏舞剧《大河之舞》（Riverdance），这场融合凯尔特音乐与爱尔兰踢踏舞的视听盛宴，在泉城掀起一阵踢踏旋风，成为济南观演记忆中的经典。',
+        tips: '关注历山剧院官方公众号获取演出排期；大河之舞等经典剧目需提前购票；建议选5-10排中间座位；剧院近千佛山北麓，可与白天千佛山游览串联；周边银座商城餐饮丰富。',
+        image: jinanRiverdance,
+        highlights: [
+          '历山剧院：山东省文化厅直属大型剧院，1086座',
+          '始建于1978年，1989年落成，2025年9月焕新重开',
+          '《大河之舞》爱尔兰踢踏舞巅峰之作，全球巡演经典',
+          'Riverdance融合凯尔特音乐、爱尔兰踢踏舞与弗拉门戈',
+          '剧院占地1.3万平方米，舞台面积超500平方米',
+          '曾举办黄河舞剧、捷克男童合唱团等国际演出',
+        ],
+        gallery: [
+          {
+            title: '爱尔兰踢踏在泉城的震撼回响',
+            image: jinanRiverdanceDetail,
+            content: '济南历山剧院坐落于历山路112号、千佛山北麓，是山东省文化厅直属、山东省演艺集团管理的大型剧院。剧院1978年筹建、1989年落成开业，2003年装修，2025年9月21日焕新重开，占地1.3万平方米、建筑面积1.1万平方米，主演艺厅设豪华座椅1086座，舞台面积逾500平方米，还配有小剧场、数码厅、模拟厅、排练厅、展厅等设施。历山剧院以"历山艺享汇"周末相声系列为自主品牌，曾举办捷克男童合唱团音乐会、大型舞蹈史诗《黄河》、杂技剧《铁道英雄》、话剧《乳娘》等演出。《大河之舞》（Riverdance）是爱尔兰踢踏舞的巅峰之作，1994年都柏林欧洲歌唱大赛Interval秀首演，此后发展为完整舞台剧，以凯尔特传统音乐为灵魂，融合爱尔兰踢踏舞、弗拉门戈、美式踢踏与俄罗斯民间舞，舞者整齐划一的步伐与磅礴的交响配乐交织，被誉为"世界舞蹈的教科书"。当大河之舞登上历山剧院舞台，踢踏舞者的皮鞋在木地板上敲出千军万马般的节奏，凯尔特风笛与爱尔兰小提琴在泉城夜空回荡——这场东西方文化在齐鲁大地的碰撞，让济南观众在家门口便领略到了世界级舞蹈的震撼魅力。',
+          },
+        ],
+      },
+    ],
+    hotels: [
+      {
+        name: '济南国际会展中心酒店',
+        nameEn: 'Jinan International Convention Center Hotel',
+        stars: 5,
+        priceRange: '500-1200元/晚',
+        location: '济南高新区会展中心',
+        features: ['会展中心', '高新区', '商务出行', '亲住推荐'],
+        description: '济南国际会展中心位于济南高新区核心地段，是济南市标志性建筑之一。会展中心建筑气势恢宏，配套酒店紧邻展馆，是参展商与商务旅客的首选。周边高新区写字楼林立、餐饮购物便利，距趵突泉、大明湖等景区约30分钟车程。',
+        isFeatured: true,
+      },
+      { name: '济南禧悦东方酒店', nameEn: 'Journey East Hotel Jinan', stars: 5, priceRange: '600-1500元/晚', location: '高新区舜华路', features: ['高新区', '近会展中心', '商务酒店'], description: '高新区高端商务酒店，紧邻济南国际会展中心与万达广场，客房宽敞、设施现代，是商务出行与参展住宿的优质选择。' },
+      { name: '济南索菲特银座大饭店', nameEn: 'Sofitel Jinan Silver Plaza', stars: 5, priceRange: '700-1800元/晚', location: '历下区泺源大街', features: ['市中心', '近泉城广场', '法式奢华'], description: '法国雅高集团管理的高端酒店，位于济南市中心泺源大街，步行可达泉城广场、趵突泉，是游览济南三大名胜的最佳住宿选择。' },
+      { name: '济南鲁能希尔顿酒店', nameEn: 'Hilton Jinan', stars: 5, priceRange: '600-1400元/晚', location: '历下区经十路', features: ['近千佛山', '国际品牌', '商务休闲'], description: '国际连锁五星级酒店，位于经十路近千佛山，客房可俯瞰千佛山全景，距大明湖、趵突泉约10分钟车程，商务与旅游兼顾。' },
+    ],
+    tips: [
+      { title: '交通', content: '高铁济南西站、济南站均可达；市内地铁1/2/3号线覆盖主要景点；趵突泉、大明湖、泉城广场均在市中心步行可达；千佛山乘公交K2、K48路直达；济南植物园在章丘区，建议自驾或乘章丘方向大巴。' },
+      { title: '美食', content: '必吃：把子肉、油旋、甜沫、九转大肠、糖醋鲤鱼、孟家扒蹄。把子肉肥而不腻是济南招牌；油旋外酥里嫩、葱香扑鼻；甜沫是济南特色早餐。芙蓉街、宽厚里小吃最集中。' },
+      { title: '最佳时间', content: '4-5月春季赏花、气候宜人；7-8月大明湖荷花盛开；9-10月秋高气爽、趵突泉水量最大；冬季趵突泉水汽蒸腾如仙境。四季皆宜，夏秋最佳。' },
     ],
   },
 ];
