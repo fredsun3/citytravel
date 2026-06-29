@@ -92,6 +92,31 @@ export const cityImages = {
     emoji: '👣',
     label: '泰山·五岳独尊',
   },
+  beijing: {
+    gradient: 'linear-gradient(135deg, #b71c1c 0%, #d84315 50%, #f9a825 100%)',
+    emoji: '👣',
+    label: '天安门·故宫·长城',
+  },
+  hangzhou: {
+    gradient: 'linear-gradient(135deg, #00695c 0%, #0277bd 50%, #26a69a 100%)',
+    emoji: '👣',
+    label: '千岛湖·桐庐山',
+  },
+  shaoguan: {
+    gradient: 'linear-gradient(135deg, #b71c1c 0%, #c62828 50%, #ff7043 100%)',
+    emoji: '👣',
+    label: '丹霞山·南华寺',
+  },
+  shenzhen: {
+    gradient: 'linear-gradient(135deg, #0d47a1 0%, #1565c0 50%, #00bcd4 100%)',
+    emoji: '👣',
+    label: '世界之窗·大梅沙',
+  },
+  jinhua: {
+    gradient: 'linear-gradient(135deg, #bf360c 0%, #d84315 50%, #ff8f00 100%)',
+    emoji: '👣',
+    label: '方岩山·一柱擎天',
+  },
 };
 
 export function getCityImage(cityId) {
