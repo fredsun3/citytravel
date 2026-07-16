@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { cities, getRegions, getCitiesByRegion, searchCities, getFootprintCities } from '../data/cities';
 import { getCityImage } from '../data/cityImages';
+import LazyImage from './LazyImage';
 import './HomePage.css';
 
 const REGION_COLORS = {
@@ -27,7 +28,8 @@ function HomePage({ onCityClick }) {
 
   const renderCityCard = (city, isFootprint = false) => (
     <div key={city.id} className={`city-card${isFootprint ? ' footprint-card' : ''}`} onClick={() => onCityClick(city.id)}>
-      <div className="city-image" style={{ backgroundImage: `url(${city.image})` }}>
+      <div className="city-image">
+        <LazyImage src={city.image} alt={city.name} className="city-img-fill" />
         {isFootprint ? (
           <div className="city-badge footprint-badge">👣 我的足迹</div>
         ) : (

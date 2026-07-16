@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { getCityById } from '../data/cities';
 import { getCityImage } from '../data/cityImages';
+import LazyImage from './LazyImage';
 import './CityDetailPage.css';
 
 const TYPE_ICONS = {
@@ -25,7 +26,8 @@ function CityDetailPage({ cityId, onBack }) {
       <button className="back-btn" onClick={onBack}>← 返回首页</button>
 
       {/* City Hero */}
-      <div className="detail-hero" style={{ backgroundImage: `url(${city.image})` }}>
+      <div className="detail-hero">
+        <LazyImage src={city.image} alt={city.name} className="detail-hero-img" />
         <div className="detail-hero-overlay">
           <h1 className="detail-city-name">{city.name}</h1>
           <p className="detail-city-name-en">{city.nameEn}</p>
@@ -87,7 +89,9 @@ function CityDetailPage({ cityId, onBack }) {
                 </div>
                 {a.tagline && <p className="attraction-tagline">📍 {a.tagline}</p>}
                 {a.image && (
-                  <div className="attraction-image" style={{ backgroundImage: `url(${a.image})` }}></div>
+                  <div className="attraction-image">
+                    <LazyImage src={a.image} alt={a.name} className="attraction-img-fill" />
+                  </div>
                 )}
                 <p className="attraction-desc">{a.description}</p>
                 <div className="attraction-meta">
@@ -109,7 +113,8 @@ function CityDetailPage({ cityId, onBack }) {
                   <div className="attraction-gallery">
                     {a.gallery.map((g, gi) => (
                       <div key={gi} className="gallery-item">
-                        <div className="gallery-image" style={{ backgroundImage: `url(${g.image})` }}>
+                        <div className="gallery-image">
+                          <LazyImage src={g.image} alt={g.title} className="gallery-img-fill" />
                           <span className="gallery-caption-tag">{g.title}</span>
                         </div>
                         <h4 className="gallery-title">{g.title}</h4>
@@ -133,7 +138,8 @@ function CityDetailPage({ cityId, onBack }) {
             {city.hotels.map((h, i) => (
               <div key={i} className={`hotel-card${h.isScenic ? ' scenic-hotel-card' : ''}${h.isFeatured ? ' featured-hotel-card' : ''}`}>
                 {h.image && (
-                  <div className="hotel-image" style={{ backgroundImage: `url(${h.image})` }}>
+                  <div className="hotel-image">
+                    <LazyImage src={h.image} alt={h.name} className="hotel-img-fill" />
                     {h.isFeatured && <span className="featured-badge">⭐ 亲住推荐</span>}
                   </div>
                 )}
