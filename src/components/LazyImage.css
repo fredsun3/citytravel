@@ -5,6 +5,17 @@
   height: 100%;
   overflow: hidden;
   background-color: #f0f0f0;
+  /* 灰色 shimmer 占位：图片未加载时透出，图片加载后自然覆盖背景。
+     不再依赖 opacity:0 隐藏图片，避免 onLoad 未触发时图片永久不可见。 */
+  background-image: linear-gradient(90deg, #e8e8e8 25%, #f5f5f5 50%, #e8e8e8 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* 已加载：停止 shimmer 动画（仅为美观，不影响图片可见性） */
+.lazy-img-container.loaded {
+  animation: none;
+  background-image: none;
 }
 
 .lazy-img-cover .lazy-img {
@@ -20,32 +31,13 @@
 }
 
 .lazy-img {
-  opacity: 0;
-  transition: opacity 0.4s ease;
+  /* 始终可见：图片加载完成后内容自然显示并覆盖容器背景。
+     这从根本上修复了「永久灰色」bug——
+     旧方案用 opacity:0 隐藏图片，若 onLoad 未触发则 loaded 永远为 false，
+     图片永久不可见；新方案即使 onLoad 失效，图片一旦加载即覆盖灰色背景。 */
+  opacity: 1;
   position: relative;
   z-index: 1;
-}
-
-.lazy-img.fade-in {
-  opacity: 1;
-}
-
-/* Shimmer placeholder while loading - sits behind the img */
-.lazy-img-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, #e8e8e8 25%, #f5f5f5 50%, #e8e8e8 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite;
-  z-index: 0;
-}
-
-/* When loaded, hide placeholder via container class */
-.lazy-img-container.loaded .lazy-img-placeholder {
-  display: none;
 }
 
 @keyframes shimmer {

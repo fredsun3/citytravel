@@ -77,7 +77,10 @@ function CityDetailPage({ cityId, onBack }) {
       <div className="tab-content">
         {activeTab === 'attractions' && (
           <div className="attractions-list">
-            {city.attractions.map((a, i) => (
+            {city.attractions.map((a, i) => {
+              // 过滤掉与景点主图相同的图集项，避免重复展示
+              const gallery = (a.gallery || []).filter(g => g.image !== a.image);
+              return (
               <div key={i} className="attraction-card">
                 <div className="attraction-header">
                   <span className="attraction-icon">{TYPE_ICONS[a.type] || '📍'}</span>
@@ -109,9 +112,9 @@ function CityDetailPage({ cityId, onBack }) {
                     </ul>
                   </div>
                 )}
-                {a.gallery && a.gallery.length > 0 && (
+                {gallery.length > 0 && (
                   <div className="attraction-gallery">
-                    {a.gallery.map((g, gi) => (
+                    {gallery.map((g, gi) => (
                       <div key={gi} className="gallery-item">
                         <div className="gallery-image">
                           <LazyImage src={g.image} alt={g.title} className="gallery-img-fill" />
@@ -129,7 +132,8 @@ function CityDetailPage({ cityId, onBack }) {
                   </div>
                 )}
               </div>
-            ))}
+            );
+            })}
           </div>
         )}
 
