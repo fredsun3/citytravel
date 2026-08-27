@@ -122,6 +122,11 @@ export const cityImages = {
     emoji: '👣',
     label: '趵突泉·大明湖',
   },
+  yantai: {
+    gradient: 'linear-gradient(135deg, #006064 0%, #00838f 50%, #4dd0e1 100%)',
+    emoji: '👣',
+    label: '蓬莱仙境·长岛海韵',
+  },
 };
 
 export function getCityImage(cityId) {
