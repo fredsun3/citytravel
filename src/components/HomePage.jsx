@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { cities, getRegions, getCitiesByRegion, searchCities, getFootprintCities } from '../data/cities';
 import { getCityImage } from '../data/cityImages';
 import LazyImage from './LazyImage';
@@ -26,8 +26,26 @@ function HomePage({ onCityClick }) {
     return getCitiesByRegion(activeRegion);
   }, [activeRegion, searchQuery]);
 
-  const renderCityCard = (city, isFootprint = false) => (
-    <div key={city.id} className={`city-card${isFootprint ? ' footprint-card' : ''}`} onClick={() => onCityClick(city.id)}>
+  const renderCityCard = (city, isFootprint = false) => {
+    const clickTimer = useRef(null);
+    const handleClick = (e) => {
+      // 足迹卡片：延迟单击导航，若双击则取消导航让 lightbox 处理
+      if (isFootprint) {
+        if (clickTimer.current) {
+          clearTimeout(clickTimer.current);
+          clickTimer.current = null;
+          return; // 双击，取消导航
+        }
+        clickTimer.current = setTimeout(() => {
+          clickTimer.current = null;
+          onCityClick(city.id);
+        }, 250);
+      } else {
+        onCityClick(city.id);
+      }
+    };
+    return (
+    <div key={city.id} className={`city-card${isFootprint ? ' footprint-card' : ''}`} onClick={handleClick}>
       <div className="city-image">
         <LazyImage src={city.image} alt={city.name} className="city-img-fill" enableLightbox={isFootprint} />
         {isFootprint ? (
@@ -54,7 +72,8 @@ function HomePage({ onCityClick }) {
         </div>
       </div>
     </div>
-  );
+    );
+  };
 
   return (
     <div className="home-page">

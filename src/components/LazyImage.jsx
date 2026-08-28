@@ -80,7 +80,7 @@ function LazyImage({ src, alt = '', className = '', variant = 'cover', priority 
     <>
       <div
         className={`lazy-img-container ${className} ${variantClass} ${loaded ? 'loaded' : ''} ${enableLightbox ? 'lightbox-enabled' : ''}`}
-        onDoubleClick={enableLightbox ? () => setLightboxOpen(true) : undefined}
+        onDoubleClick={enableLightbox ? (e) => { e.stopPropagation(); setLightboxOpen(true); } : undefined}
       >
         <img
           ref={imgRef}
