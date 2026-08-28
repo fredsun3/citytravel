@@ -27,7 +27,7 @@ function CityDetailPage({ cityId, onBack }) {
 
       {/* City Hero */}
       <div className="detail-hero">
-        <LazyImage src={city.image} alt={city.name} className="detail-hero-img" />
+        <LazyImage src={city.image} alt={city.name} className="detail-hero-img" priority="high" />
         <div className="detail-hero-overlay">
           <h1 className="detail-city-name">{city.name}</h1>
           <p className="detail-city-name-en">{city.nameEn}</p>
