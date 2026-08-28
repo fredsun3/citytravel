@@ -27,7 +27,7 @@ function CityDetailPage({ cityId, onBack }) {
 
       {/* City Hero */}
       <div className="detail-hero">
-        <LazyImage src={city.image} alt={city.name} className="detail-hero-img" priority="high" />
+        <LazyImage src={city.image} alt={city.name} className="detail-hero-img" priority="high" enableLightbox={city.isFootprint} />
         <div className="detail-hero-overlay">
           <h1 className="detail-city-name">{city.name}</h1>
           <p className="detail-city-name-en">{city.nameEn}</p>
@@ -93,7 +93,7 @@ function CityDetailPage({ cityId, onBack }) {
                 {a.tagline && <p className="attraction-tagline">📍 {a.tagline}</p>}
                 {a.image && (
                   <div className="attraction-image">
-                    <LazyImage src={a.image} alt={a.name} className="attraction-img-fill" />
+                    <LazyImage src={a.image} alt={a.name} className="attraction-img-fill" enableLightbox={city.isFootprint} />
                   </div>
                 )}
                 <p className="attraction-desc">{a.description}</p>
@@ -117,7 +117,7 @@ function CityDetailPage({ cityId, onBack }) {
                     {gallery.map((g, gi) => (
                       <div key={gi} className="gallery-item">
                         <div className="gallery-image">
-                          <LazyImage src={g.image} alt={g.title} className="gallery-img-fill" />
+                          <LazyImage src={g.image} alt={g.title} className="gallery-img-fill" enableLightbox={city.isFootprint} />
                           <span className="gallery-caption-tag">{g.title}</span>
                         </div>
                         <h4 className="gallery-title">{g.title}</h4>
@@ -143,7 +143,7 @@ function CityDetailPage({ cityId, onBack }) {
               <div key={i} className={`hotel-card${h.isScenic ? ' scenic-hotel-card' : ''}${h.isFeatured ? ' featured-hotel-card' : ''}`}>
                 {h.image && (
                   <div className="hotel-image">
-                    <LazyImage src={h.image} alt={h.name} className="hotel-img-fill" />
+                    <LazyImage src={h.image} alt={h.name} className="hotel-img-fill" enableLightbox={city.isFootprint} />
                     {h.isFeatured && <span className="featured-badge">⭐ 亲住推荐</span>}
                   </div>
                 )}
